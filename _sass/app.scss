@@ -12,6 +12,7 @@ body {
         color: $red;
         margin-bottom: 0;
         letter-spacing: .025em;
+        font-weight: 600;
     }
     p {
         font-weight: 300;
@@ -68,6 +69,11 @@ body {
     font-size: 14px;
 }
 
+.title--block {
+    display: block;
+    margin-bottom: 1em;
+}
+
 .event--time,
 .job--company {
     margin-bottom: 20px;
@@ -75,6 +81,7 @@ body {
 
 .event--subheader {
     font-weight: 300;
+    line-height: 1.4;
 }
 
 @media only screen and (max-width: 40em) {

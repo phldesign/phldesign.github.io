@@ -2,11 +2,13 @@ button {
     @include transition(all, 0.2s, ease-in-out);
     background-color: transparent;
     border: 1px solid $red;
-    padding: .25em 3em;
+    padding: .25em 2em;
     font: {
         family: $sans-serif;
-        size: 16px;
+        size: 14px;
+        weight: 400;
     };
+    letter-spacing: .075em;
     color: $red;
     text-transform: uppercase;
     &:hover {
