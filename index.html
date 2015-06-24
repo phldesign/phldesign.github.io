@@ -1,1 +1,40 @@
-Hello world
+---
+layout: default
+title: "Home"
+fulltitle: "PHL Design" 
+---
+<!-- fulltitle: This overrides the default page title, which is "{{page.tite}} | {{site.title}}" -->
+<!-- excerpt: If this isn't set, it'll pull your {{site.tagline}} for meta description-->
+
+<div class="row">
+	<div class="large-6 medium-6 small-12 columns">
+		<h2 class="latest--events">Upcoming Events</h2>
+		{% assign curDate = site.time | date: '%s' %}
+		{% for post in site.categories['events'] reversed %}
+		{% assign postStartDate = post.date | date: '%s' %}
+		{% if postStartDate >= curDate %}
+		<div class="event--block">
+			<p class="event--date">{{ post.date | date: '%B %d, %Y' }}</p>
+			<h3 class="event--title">{{ post.title }}</h3>
+			<h3 class="event--subheader">{{ post.subheader }}</h3>
+			<p class="event--location">@{{ post.location }}</p>
+			<p class="event--time">{{ post.time }}</p>
+			{% if post.button == true %}
+			<a href="{{ post.eventlink }}" target="_blank"><button>Attend</button></a>
+			{% endif %}
+		</div>
+		{% endif %}
+		{% endfor %}
+	</div>
+	<div class="large-6 medium-6 small-12 columns">
+		<h2 class="latest--jobs">Latest Jobs</h2>
+		{% for post in site.categories['jobs'] %}
+		<div class="job--block">
+			<h3 class="job--position">{{ post.position }}</h3>
+			<p class="job--company"><strong>Company: </strong>{{ post.company }}</p>
+			<a href="{{ post.joblink }}" target="_blank"><button>Apply</button></a>
+		</div>
+		{% endfor %}
+	</div>
+
+</div>
