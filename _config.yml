@@ -1,19 +1,14 @@
 # Site settings
-title: My Little Website
-tagline: "Changing the world, one uninspired quote at a time"
-url: "http://yourwebsite.com" # The base hostname & protocol for your site. Use it if you need absolute URL's
+title: PHL Design
+tagline: "Philadelphia Community of Web Designers and Devs"
+url: "http://phldesign.co"
 
 # Social
-socialimg: /img/social.jpg # be sure to change this image
-facebook: fbusername
-twitter: twusername
-github: ghusername
-googleplus: gusername
-instagram: igusername
+twitter: atn1988
 
 # Contact
-phone: "916-276-1044" # This is my real number. You should text me.
-email: "hello@garrettboatman.com" # This is my real email address. Please don't email me.
+phone: "215-834-4413"
+email: "hi@antnguyen.com"
 
 # Use this for production
 #sass:

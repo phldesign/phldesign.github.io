@@ -1,0 +1,87 @@
+html {
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background-color: $off-white;
+}
+
+#header {
+    background-color: $navy;
+    h1 {
+        color: $red;
+        margin-bottom: 0;
+        letter-spacing: .025em;
+    }
+    p {
+        font-weight: 300;
+        color: white;
+        margin: -10px 0 2.67em;
+        letter-spacing: .05em;
+    }
+}
+
+@media only screen and (max-width: 40em) {
+    #header {
+        h1 {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.latest--events,
+.latest--jobs {
+    background-color: $red;
+    color: white;
+    padding: .25em 1em;
+    font: {
+        size: 18px;
+        weight: 600;
+    };
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.event--block,
+.job--block {
+    padding: 30px 0;
+    border-bottom: 1px solid lighten($navy, 50%);
+}
+
+.event--date,
+.event--location,
+.event--time,
+.job--position,
+.job--company {
+    margin: 3px 0;
+}
+
+.event--title,
+.event--subheader {
+    margin: 0 0 0;
+}
+
+.event--date,
+.event--location,
+.event--time,
+.job--company {
+    font-size: 14px;
+}
+
+.event--time,
+.job--company {
+    margin-bottom: 20px;
+}
+
+.event--subheader {
+    font-weight: 300;
+}
+
+@media only screen and (max-width: 40em) {
+    .latest--events {
+        margin-top: 40px;
+    }
+    .latest--jobs {
+        margin-top: 60px;
+    }
+}

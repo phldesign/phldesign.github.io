@@ -1,0 +1,16 @@
+button {
+    @include transition(all, 0.2s, ease-in-out);
+    background-color: transparent;
+    border: 1px solid $red;
+    padding: .25em 3em;
+    font: {
+        family: $sans-serif;
+        size: 16px;
+    };
+    color: $red;
+    text-transform: uppercase;
+    &:hover {
+        background-color: $red;
+        color: white;
+    }
+}
