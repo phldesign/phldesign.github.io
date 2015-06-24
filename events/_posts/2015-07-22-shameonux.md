@@ -2,7 +2,7 @@
 layout: default
 categories: events
 title: N3RD St. Speed Critique
-subheader:
+subheader: Shame On UX - User Experience Meetup
 time: 5:30pm
 date: July 22, 2015
 location: Arcweb Office
