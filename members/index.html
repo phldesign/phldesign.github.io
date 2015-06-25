@@ -36,7 +36,7 @@ fulltitle: "Members Directory"
   		  	{% if post.instagram %}<li><a class="fa fa-instagram" href="http://www.instagram.com/{{ post.instagram }}" target="_blank"></a></li>{% endif %}
   		  	{% if post.facebook %}<li><a class="fa fa-facebook-official" href="http://www.github.com/{{ post.facebook }}" target="_blank"></a></li>{% endif %}
   		  	{% if post.github %}<li><a class="fa fa-github" href="http://www.github.com/{{ post.github }}" target="_blank"></a></li>{% endif %}
-  		  	{% if post.website %}<li><a class="fa fa-globe" href="={{ post.website }}" target="_blank"></a></li>{% endif %}
+  		  	{% if post.website %}<li><a class="fa fa-globe" href="{{ post.website }}" target="_blank"></a></li>{% endif %}
   		  </ul>
   		   {% endfor %}
 		</div>
