@@ -1,0 +1,7 @@
+a {
+    @include transition(all, 0.2s, ease-in-out);
+    color: $red;
+    &:hover {
+        color: darken($red, 30%);
+    }
+}
