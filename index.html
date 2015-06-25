@@ -9,9 +9,9 @@ fulltitle: "PHL Design"
 <div class="row">
 	<div class="large-6 medium-6 small-12 columns">
 		<h2 class="latest--events">Upcoming Events</h2>
-		{% assign curDate = site.time | date: '%s' %}
+		{% assign curDate = site.time | date: '%B %d, %Y' %}
 		{% for post in site.categories['events'] reversed %}
-		{% assign postStartDate = post.date | date: '%s' %}
+		{% assign postStartDate = post.date | date: '%B %d, %Y' %}
 		{% if postStartDate >= curDate %}
 		<div class="event--block">
 			<p class="event--date">{{ post.date | date: '%B %d, %Y' }}</p>
