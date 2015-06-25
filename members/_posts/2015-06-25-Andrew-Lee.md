@@ -11,5 +11,5 @@ dribbble: leevw
 facebook:
 instagram:
 github: 
-website: www.bythegrid.com
+website: http://www.bythegrid.com
 ---
