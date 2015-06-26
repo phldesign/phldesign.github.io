@@ -9,10 +9,11 @@ fulltitle: "PHL Design"
 <div class="row">
 	<div class="large-6 medium-6 small-12 columns">
 		<h2 class="latest--events">Upcoming Events</h2>
+
 		{% assign eventPost = site.data.events | sort: 'date' %}
 		{% for event in eventPost limit:5 %}
-		{% assign curDate = site.time | date: '%m/%d/%Y' %}
-		{% assign postStartDate = event.date | date: '%m/%d/%Y' %}
+		{% assign curDate = site.time | date: '%Y-%m-%d' %}
+		{% assign postStartDate = event.date | date: '%Y-%m-%d' %}
 		{% if postStartDate >= curDate %}
 		<div class="event--block">
 			<p class="event--date">{{ event.date | date: '%B %-d, %Y' }}</p>
