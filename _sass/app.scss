@@ -64,9 +64,17 @@ body {
 }
 
 .event--block--all {
-    padding: 0 0 0 30px;
+    padding: 30px;
     margin: 40px 0 0;
-    border-left: 1px solid $red;
+    background-color: white;
+    @include BoxShadowHelper($level-1);
+    @include transition(all, 350ms, ease-in-out);
+    &:hover {
+        @include BoxShadowHelper($level-4);
+        -webkit-transform: translateY(-5px);
+        -moz-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
 }
 
 @media only screen and (max-width: 40em) {
