@@ -63,18 +63,19 @@ body {
     border-left: 1px solid $red;
 }
 
-@media only screen and (max-width: 40em) {
-    .event--block,
-    .job--block {
-        border: none;
-        padding: 0;
-    }
-}
-
 .event--block--all {
     padding: 0 0 0 30px;
     margin: 40px 0 0;
     border-left: 1px solid $red;
+}
+
+@media only screen and (max-width: 40em) {
+    .event--block,
+    .job--block,
+    .event--block--all {
+        border: none;
+        padding: 0;
+    }
 }
 
 .event--date,
