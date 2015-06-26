@@ -6,44 +6,51 @@ fulltitle: "PHL Design"
 <!-- fulltitle: This overrides the default page title, which is "{{page.tite}} | {{site.title}}" -->
 <!-- excerpt: If this isn't set, it'll pull your {{site.tagline}} for meta description-->
 
-<div class="row">
-	<div class="large-6 medium-6 small-12 columns">
-		<h2 class="page-subhead">Upcoming Events</h2>
-
-		{% assign eventPost = site.data.events | sort: 'date' %}
-		{% for event in eventPost limit:5 %}
-		{% assign curDate = site.time | date: '%Y-%m-%d' %}
-		{% assign postStartDate = event.date | date: '%Y-%m-%d' %}
-		{% if postStartDate >= curDate %}
-		<div class="content--block">
-			<div class="event--info">
-				<p class="content--date">{{ event.date | date: '%B %-d, %Y' }}</p>
-				<h3 class="content--title">{{ event.title }}</h3>
-				<p class="content--location"><strong>{{ event.location }}</strong> at <strong>{{ event.time }}</strong></p>
-				{% if event.subheader %}
-				<p class="content--description">{{ event.subheader }}</h4>
+<div class="wrapper">
+	<div class="row">
+		<div class="large-6 medium-6 small-12 columns">
+			<h2 class="page-subhead">Upcoming Events</h2>
+	
+			{% assign eventPost = site.data.events | sort: 'date' %}
+			{% for event in eventPost limit:5 %}
+			{% assign curDate = site.time | date: '%Y-%m-%d' %}
+			{% assign postStartDate = event.date | date: '%Y-%m-%d' %}
+			{% if postStartDate >= curDate %}
+			<div class="content--block">
+				<div class="event--info">
+					<p class="content--date">{{ event.date | date: '%B %-d, %Y' }}</p>
+					<h3 class="content--title">{{ event.title }}</h3>
+					<p class="content--location"><strong>{{ event.location }}</strong> at <strong>{{ event.time }}</strong></p>
+					{% if event.subheader %}
+					<p class="content--description">{{ event.subheader }}</p>
+					{% endif %}
+				</div>
+				{% if event.button == true %}
+				<a href="{{ event.eventlink }}" target="_blank"><button class="outline">Attend</button></a>
 				{% endif %}
 			</div>
-			{% if event.button == true %}
-			<a href="{{ event.eventlink }}" target="_blank"><button>Attend</button></a>
 			{% endif %}
+			{% endfor %}
+			<a href="/events/"><button class="view--all">View All Events</button></a>
+	
 		</div>
-		{% endif %}
-		{% endfor %}
-		<a href="/events/"><button class="view--all">View All Events</button></a>
-
-	</div>
-
-
-	<div class="large-6 medium-6 small-12 columns">
-		<h2 class="page-subhead">Latest Jobs</h2>
-		{% for post in site.categories['jobs']  limit:5 %}
-		<div class="content--block">
-			<h3 class="content--title">{{ post.position }}</h3>
-			<p class="content--company"><strong>Company: </strong>{{ post.company }}</p>
-			<a href="{{ post.joblink }}" target="_blank"><button>Apply</button></a>
+	
+	
+		<div class="large-6 medium-6 small-12 columns">
+			<h2 class="page-subhead">Latest Jobs</h2>
+			{% for post in site.categories['jobs']  limit:5 %}
+			<div class="content--block">
+				<h3 class="content--title">{{ post.position }}</h3>
+				{% if post.companyurl %}
+								<p class="content--company">Company: <a href="{{ post.companyurl }}" target="_blank">{{ post.company }}</a></p>
+							{% else %}
+	          					<p class="content--company">Company: {{ post.company }}</p>
+	          				{% endif %}
+						<a href="{{ post.joblink }}" target="_blank" ><button class="outline">Apply</button></a>
+			</div>
+			{% endfor %}
+			<a href="/jobs/"><button class="view--all">View All Jobs</button></a>
 		</div>
-		{% endfor %}
+	
 	</div>
-
 </div>

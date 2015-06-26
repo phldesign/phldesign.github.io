@@ -25,3 +25,14 @@ button.view--all {
         margin-bottom: 6em;
     }
 }
+
+.outline {
+    @extend button;
+    border: 1px solid $accent;
+    background-color: transparent;
+    color: $accent;
+    &:hover {
+        background-color: $accent;
+        color: white;
+    }
+}

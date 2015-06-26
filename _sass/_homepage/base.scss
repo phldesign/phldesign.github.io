@@ -4,6 +4,7 @@
     };
     margin: 0;
     display: inline;
+    color: $grey;
 }
 
 .content--block {
@@ -34,6 +35,13 @@
         font: {
             size: 14px;
         };
+        a {
+            @include transition(all, 250ms, ease-in-out);
+            color: $accent;
+            &:hover {
+                color: $accent-dark;
+            }
+        }
     }
     .content--description {
         margin: 1em 0 0;
@@ -53,5 +61,8 @@
     }
     button {
         margin: 20px 0 0;
+    }
+    strong {
+        font-weight: 600;
     }
 }

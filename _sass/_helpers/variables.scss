@@ -5,13 +5,13 @@ $white: #ffffff;
 $off-white: #fafafa;
 $black: #000000;
 
-$primary: #3a4ca8;
-$primary-light: #e8eaf6;
-$primary-dark: #3f53b1;
+$primary: #FF5252;
+$primary-light: lighten($primary, 15%);
+$primary-dark: darken($primary, 15%);
 
-$accent: #fc1e49;
-$accent-light: #fd8a82;
-$accent-dark: #d10714;
+$accent: #009688;
+$accent-light: lighten($accent, 15%);
+$accent-dark: darken($accent, 15%);
 
 $grey-dark: #333333;
 $grey: #7e7e7e;
