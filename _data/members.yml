@@ -657,7 +657,7 @@
   website: http://www.didiergarcia.com
 
 - name: Rodney Ibarra
-  position: 
+  position: Associate Art Director
   company: 1 Trick Pony
   companyurl: 
   twitter: jexpo1976
@@ -665,4 +665,59 @@
   facebook: 
   instagram: jexpo76
   github: 
-  website: 
+  website:
+
+- name: John Blazek
+  position: UI Architect
+  company: Intuitive Company
+  companyurl: http://www.intuitivecompany.com
+  twitter: johnblazek
+  dribbble: 
+  facebook: 
+  instagram: johnblazek
+  github: 
+  website: http://www.johnblazek.net
+
+- name: Patrick Macomber
+  position: Creative Director
+  company: 160over90
+  companyurl: http://www.160over90.com
+  twitter: heymacomber
+  dribbble: patrickmacomber
+  facebook: patrick.macomber
+  instagram: unpleased
+  github: 
+  website: http://www.heymacomber.com
+
+- name: Nicole diPonziano
+  position: Designer
+  company: W.L Snook
+  companyurl: 
+  twitter: 
+  dribbble: 
+  facebook: 
+  instagram: 
+  github: 
+  website: http://nicolediponziano.com/
+
+- name: Jasmine Patel
+  position: Interactive Designer
+  company: Red Tettemer O'Connell + Partners
+  companyurl: http://rtop.com
+  twitter: jazzala
+  dribbble: 
+  facebook: jasminesapna
+  instagram: jazzala
+  github: 
+  website: http://jasmine-patel.squarespace.com/
+
+- name: Jody Ferry
+  position: Lead Product Designer
+  company: PipelineDeals CRM
+  companyurl: http://pipelinedeals.com
+  twitter: jodyferry
+  dribbble: jodyferry
+  facebook: 
+  instagram: jodyferry
+  github: jodyferry
+  website: http://jodyferry.com/work
