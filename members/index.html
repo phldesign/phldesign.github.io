@@ -17,7 +17,11 @@ fulltitle: "Members Directory"
       <div class="medium-6 small-12 columns clearfixs">
         <div class="event--block--all">
           <h3 class="member--name">{{ member.name }}</h3>
+          {% if member.companyurl %}
           <p class="event--location">{{ member.position}} @ <a href="{{ member.companyurl }}" target="_blank">{{ member.company }}</a></p>
+          {% else %}
+          <p class="event--location">{{ member.position}} @ {{ member.company }}</p>
+          {% endif %}
            <ul class="social--links">
           {% if member.twitter %}<li><a class="fa fa-twitter" href="http://www.twitter.com/{{ member.twitter }}" target="_blank"></a></li>{% endif %}
           {% if member.dribbble %}<li><a class="fa fa-dribbble" href="http://www.dribbble.com/{{ member.dribbble }}" target="_blank"></a></li>{% endif %}
@@ -32,7 +36,11 @@ fulltitle: "Members Directory"
       <div class="medium-6 small-12 columns clearfixs">
         <div class="event--block--all">
           <h3 class="member--name">{{ member.name }}</h3>
+          {% if member.companyurl %}
           <p class="event--location">{{ member.position}} @ <a href="{{ member.companyurl }}" target="_blank">{{ member.company }}</a></p>
+          {% else %}
+          <p class="event--location">{{ member.position}} @ {{ member.company }}</p>
+          {% endif %}
            <ul class="social--links">
           {% if member.twitter %}<li><a class="fa fa-twitter" href="http://www.twitter.com/{{ member.twitter }}" target="_blank"></a></li>{% endif %}
           {% if member.dribbble %}<li><a class="fa fa-dribbble" href="http://www.dribbble.com/{{ member.dribbble }}" target="_blank"></a></li>{% endif %}
