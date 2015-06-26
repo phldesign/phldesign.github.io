@@ -16,3 +16,20 @@ button {
         color: white;
     }
 }
+
+.view--all {
+    background-color: $navy;
+    border: none;
+    color: white;
+    width: 100%;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    padding: 1em 0;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 40em) {
+    .view--all {
+        margin-bottom: 60px;
+    }
+}

@@ -1,0 +1,95 @@
+- title: Arcweb Annual Open House
+  subheader: and Sean Martorana Mural Reveal Party
+  time: 5pm - 8pm
+  date: 2015-06-25
+  location: Arcweb Office
+  button: true
+  eventlink: http://arcwebtech.ticketleap.com/rsvphere/
+
+- title: EPAM Happy Hour
+  subheader: 'Come join EPAM for a night of drinks, good food, and great people at our Philadelphia office.'
+  time: 6pm - 8pm
+  date: 2015-06-25
+  location: EPAM's Philadelphia Office
+  button: true
+  eventlink: https://www.eventbrite.com/e/epam-happy-hour-tickets-17189948599
+
+- title: Creative Mornings Philadelphia
+  subheader: with Yasmine Mustafa
+  time: 8:30am - 10am
+  date: 2015-06-26
+  location: Center for Architecture
+  button: true
+  eventlink: http://creativemornings.com/talks/yasmine-mustafa
+
+- title: PANMA and CS Philly Unite
+  subheader: Karen McGrane Presents - Adaptive Content, Context, and Controversy
+  time: 5:30pm - 8pm
+  date: 2015-06-30
+  location: 'Huntsman Hall, Wharton School, University of PA'
+  button: true
+  eventlink: http://www.eventbrite.com/e/panma-and-cs-philly-unite-karen-mcgrane-presents-adaptive-content-context-and-controversy-tickets-17023215897
+
+- title: Fix Yo Self Rd 2 
+  subheader: 'A Monthlty Peer-Pressure Powered One Day Portfolio Site Redesign-athon.' 
+  time: 9:30am - 4pm or later
+  date: 2015-07-12
+  location: 'Chapterhouse (9th & Bainbridge)'
+  button: false
+  eventlink:
+
+- title: Philadelphia Dribbble Meetup
+  subheader: '#DribbblePhillyMeetup'
+  time: 6pm - 10pm
+  date: 2015-08-06
+  location: Independence Beer Garden
+  button: true
+  eventlink: http://nvite.com/DribbblePhillyMeetup/d44c
+
+- title: 99U Local - Philadelphia
+  subheader:
+  time: 7pm
+  date: 2015-09-14
+  location: The Mutter Museum
+  button: true
+  eventlink: http://www.meetup.com/99U-Local-Philadelphia/events/222535504/
+
+- title: N3RD St. Speed Critique
+  subheader: Shame On UX - User Experience Meetup
+  time: 5:30pm
+  date: 2015-07-22
+  location: Arcweb Office
+  button: true
+  eventlink: http://www.meetup.com/ux-philly/events/223422944/
+
+- title: Always Be Human
+  subheader: A Talk on P'unk Ave's Journey Towards a Better Company Culture
+  time: 6:30pm - 8pm
+  date: 2015-07-09
+  location: Drexel University's URBN Annex Screening Room
+  button: true
+  eventlink: http://refreshphilly.ticketleap.com/20150709/
+
+- title: TBD with Roz Duffy
+  subheader: By Refresh Philly
+  time: 6:30pm - 8pm
+  date: 2015-08-13
+  location: Drexel University's URBN Annex Screening Room
+  button: true
+  eventlink: http://refreshphilly.ticketleap.com/20150813/
+
+- title: TBD with Mike Gadsby
+  subheader: By Refresh Philly
+  time: 6:30pm - 8pm
+  date: 2015-09-03
+  location: Drexel University's URBN Annex Screening Room
+  button: true
+  eventlink: http://refreshphilly.ticketleap.com/20150903/
+
+- title: TBD with Melissa Morris Ivone
+  subheader: By Refresh Philly
+  time: 6:30pm - 8pm
+  date: 2015-10-08
+  location: Drexel University's URBN Annex Screening Room
+  button: true
+  eventlink: http://refreshphilly.ticketleap.com/20151008/
