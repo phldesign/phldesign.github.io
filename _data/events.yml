@@ -93,3 +93,27 @@
   location: Drexel University's URBN Annex Screening Room
   button: true
   eventlink: http://refreshphilly.ticketleap.com/20151008/
+
+- title: Philly Dev Night
+  subheader: Game Jam Kickoff
+  time: 7pm - ?
+  date: 2015-07-02
+  location: Philly Game Forge
+  button: true
+  eventlink: http://phillydevnight.com/
+
+- title: Philly Dev Night
+  subheader: Game Club - rymdkapsel
+  time: 7pm - ?
+  date: 2015-07-09
+  location: Philly Game Forge
+  button: true
+  eventlink: http://phillydevnight.com/
+
+- title: Philly Dev Night
+  subheader: Game Jam Showcase
+  time: 7pm - ?
+  date: 2015-07-16
+  location: Philly Game Forge
+  button: true
+  eventlink: http://phillydevnight.com/
