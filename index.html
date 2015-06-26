@@ -8,23 +8,22 @@ fulltitle: "PHL Design"
 
 <div class="row">
 	<div class="large-6 medium-6 small-12 columns">
-		<h2 class="latest--events">Upcoming Events</h2>
+		<h2 class="page-subhead">Upcoming Events</h2>
 
 		{% assign eventPost = site.data.events | sort: 'date' %}
 		{% for event in eventPost limit:5 %}
 		{% assign curDate = site.time | date: '%Y-%m-%d' %}
 		{% assign postStartDate = event.date | date: '%Y-%m-%d' %}
 		{% if postStartDate >= curDate %}
-		<div class="event--block">
-			<p class="event--date">{{ event.date | date: '%B %-d, %Y' }}</p>
-			<span class="title--block">
-				<h3 class="event--title">{{ event.title }}</h3>
+		<div class="content--block">
+			<div class="event--info">
+				<p class="content--date">{{ event.date | date: '%B %-d, %Y' }}</p>
+				<h3 class="content--title">{{ event.title }}</h3>
+				<p class="content--location"><strong>{{ event.location }}</strong> at <strong>{{ event.time }}</strong></p>
 				{% if event.subheader %}
-				<h4 class="event--subheader">{{ event.subheader }}</h4>
+				<p class="content--description">{{ event.subheader }}</h4>
 				{% endif %}
-			</span>
-			<p class="event--location">@{{ event.location }}</p>
-			<p class="event--time">{{ event.time }}</p>
+			</div>
 			{% if event.button == true %}
 			<a href="{{ event.eventlink }}" target="_blank"><button>Attend</button></a>
 			{% endif %}
@@ -37,11 +36,11 @@ fulltitle: "PHL Design"
 
 
 	<div class="large-6 medium-6 small-12 columns">
-		<h2 class="latest--jobs">Latest Jobs</h2>
-		{% for post in site.categories['jobs']%}
-		<div class="job--block">
-			<h3 class="job--position">{{ post.position }}</h3>
-			<p class="job--company"><strong>Company: </strong>{{ post.company }}</p>
+		<h2 class="page-subhead">Latest Jobs</h2>
+		{% for post in site.categories['jobs']  limit:5 %}
+		<div class="content--block">
+			<h3 class="content--title">{{ post.position }}</h3>
+			<p class="content--company"><strong>Company: </strong>{{ post.company }}</p>
 			<a href="{{ post.joblink }}" target="_blank"><button>Apply</button></a>
 		</div>
 		{% endfor %}

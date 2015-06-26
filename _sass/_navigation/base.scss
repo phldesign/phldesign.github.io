@@ -1,0 +1,67 @@
+#header {
+    background-color: $primary;
+    margin-bottom: 3em;
+}
+
+.top-nav {
+    a {
+        color: $white;
+        text-decoration: none;
+    }
+    .logo {
+        float: left;
+        font: {
+            size: 36px;
+            weight: 700;
+        };
+        padding: .35em 0;
+    }
+    .navigation {
+        float: right;
+        padding-top: 12px;
+        li {
+            display: inline;
+            color: $white;
+            padding-left: 2em;
+        }
+        .nav-link {
+            color: $white;
+            font: {
+                size: 13px;
+                weight: 500;
+            };
+            text-transform: uppercase;
+            letter-spacing: .1em;
+            &:hover {
+                padding-bottom: 3px;
+                border-bottom: 2px solid white;
+            }
+            &:active {
+                font: {
+                    weight: 600;
+                };
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .top-nav {
+        h1 {
+            margin-bottom: 0;
+        }
+        .logo {
+            float: none;
+            display: inline-block;
+        }
+        .navigation {
+            float: left;
+            margin: 0;
+            padding: 0 0 1em;
+            line-height: 2em;
+            li {
+                padding: 0 1em 0 0;
+            }
+        }
+    }
+}
