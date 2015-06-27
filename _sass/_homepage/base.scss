@@ -1,0 +1,68 @@
+.page-subhead {
+    font: {
+        size: 21px;
+    };
+    margin: 0;
+    display: inline;
+    color: $grey;
+}
+
+.content--block {
+    @include transition(all, 250ms, ease-in-out);
+    @include BoxShadowHelper($level-1);
+    background-color: $white;
+    padding: 30px;
+    margin: 30px 0;
+    .content--date {
+        margin: 0;
+        font: {
+            size: 12px;
+        };
+        text-transform: uppercase;
+        color: $grey;
+    }
+    .content--title {
+        margin: 0;
+        font: {
+            size: 26px;
+            weight: 700;
+        };
+        letter-spacing: 0;
+    }
+    .content--location,
+    .content--company {
+        margin: .35em 0;
+        font: {
+            size: 14px;
+        };
+        a {
+            @include transition(all, 250ms, ease-in-out);
+            color: $accent;
+            &:hover {
+                color: $accent-dark;
+            }
+        }
+    }
+    .content--description {
+        margin: 1em 0 0;
+        font: {
+            size: 15px;
+            weight: 300;
+        };
+        letter-spacing: 0.05em;
+    }
+    &:hover {
+        @include BoxShadowHelper($level-3);
+        -ms-transform: translate(0, -5px);
+        /* IE 9 */
+        -webkit-transform: translate(0, -5px);
+        /* Safari */
+        transform: translate(0, -5px);
+    }
+    button {
+        margin: 20px 0 0;
+    }
+    strong {
+        font-weight: 600;
+    }
+}

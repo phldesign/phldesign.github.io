@@ -4,57 +4,60 @@ title: "Members Directory"
 fulltitle: "Members Directory" 
 ---
 
-<div class="row">
-  <div class="small-12 columns">
-    <div class="clearfix">
-      <h2 class="latest--events">Members Directory</h2>
-    </div>
-    {% assign memberPost = site.data.members | sort: 'name' %}
-    {% for member in memberPost %}
-    {% assign loopindex = forloop.index | modulo: 2 %}
-    {% if loopindex == 1 %}
-    <div class="row">
-      <div class="medium-6 small-12 columns clearfixs">
-        <div class="event--block--all">
-          <h3 class="member--name">{{ member.name }}</h3>
-          {% if member.companyurl %}
-          <p class="event--location">{{ member.position}} @ <a href="{{ member.companyurl }}" target="_blank">{{ member.company }}</a></p>
-          {% else %}
-          <p class="event--location">{{ member.position}} @ {{ member.company }}</p>
-          {% endif %}
-           <ul class="social--links">
-          {% if member.twitter %}<li><a class="fa fa-twitter" href="http://www.twitter.com/{{ member.twitter }}" target="_blank"></a></li>{% endif %}
-          {% if member.dribbble %}<li><a class="fa fa-dribbble" href="http://www.dribbble.com/{{ member.dribbble }}" target="_blank"></a></li>{% endif %}
-          {% if member.instagram %}<li><a class="fa fa-instagram" href="http://www.instagram.com/{{ member.instagram }}" target="_blank"></a></li>{% endif %}
-          {% if member.facebook %}<li><a class="fa fa-facebook-official" href="http://www.facebook.com/{{ member.facebook }}" target="_blank"></a></li>{% endif %}
-          {% if member.github %}<li><a class="fa fa-github" href="http://www.github.com/{{ member.github }}" target="_blank"></a></li>{% endif %}
-          {% if member.website %}<li><a class="fa fa-globe" href="{{ member.website }}" target="_blank"></a></li>{% endif %}
-        </ul>
-        </div>
-      </div>
-      {% else %}
-      <div class="medium-6 small-12 columns clearfixs">
-        <div class="event--block--all">
-          <h3 class="member--name">{{ member.name }}</h3>
-          {% if member.companyurl %}
-          <p class="event--location">{{ member.position}} @ <a href="{{ member.companyurl }}" target="_blank">{{ member.company }}</a></p>
-          {% else %}
-          <p class="event--location">{{ member.position}} @ {{ member.company }}</p>
-          {% endif %}
-           <ul class="social--links">
-          {% if member.twitter %}<li><a class="fa fa-twitter" href="http://www.twitter.com/{{ member.twitter }}" target="_blank"></a></li>{% endif %}
-          {% if member.dribbble %}<li><a class="fa fa-dribbble" href="http://www.dribbble.com/{{ member.dribbble }}" target="_blank"></a></li>{% endif %}
-          {% if member.instagram %}<li><a class="fa fa-instagram" href="http://www.instagram.com/{{ member.instagram }}" target="_blank"></a></li>{% endif %}
-          {% if member.facebook %}<li><a class="fa fa-facebook-official" href="http://www.github.com/{{ member.facebook }}" target="_blank"></a></li>{% endif %}
-          {% if member.github %}<li><a class="fa fa-github" href="http://www.github.com/{{ member.github }}" target="_blank"></a></li>{% endif %}
-          {% if member.website %}<li><a class="fa fa-globe" href="{{ member.website }}" target="_blank"></a></li>{% endif %}
-        </ul>
-        </div>
-      </div>
-    </div>
-    {% endif %}
-    {% endfor %}
-  </div>
+<div class="wrapper">
+	<div class="row">
+		<div class="small-12 columns">
+			<div class="clearfix">
+				<h2 class="page-subhead">Members Directory</h2>
+			</div>
 
+			{% assign memberPost = site.data.members | sort: 'name' %}
+			{% for member in memberPost %}
+			{% assign loopindex = forloop.index | modulo: 2 %}
+			{% if loopindex == 1 %}
+			<div class="row">
+				<div class="medium-6 small-12 columns clearfixs">
+					<div class="content--block">
+						<h3 class="content--title">{{ member.name }}</h3>
+						{% if member.companyurl %}
+						<p class="content--company">{{ member.position}} @ <a href="{{ member.companyurl }}" target="_blank">{{ member.company }}</a></p>
+						{% else %}
+						<p class="content--company">{{ member.position}} @ {{ member.company }}</p>
+						{% endif %}
+						<ul class="social--links">
+							{% if member.twitter %}<li><a class="fa fa-twitter" href="http://www.twitter.com/{{ member.twitter }}" target="_blank"></a></li>{% endif %}
+							{% if member.dribbble %}<li><a class="fa fa-dribbble" href="http://www.dribbble.com/{{ member.dribbble }}" target="_blank"></a></li>{% endif %}
+							{% if member.instagram %}<li><a class="fa fa-instagram" href="http://www.instagram.com/{{ member.instagram }}" target="_blank"></a></li>{% endif %}
+							{% if member.facebook %}<li><a class="fa fa-facebook-official" href="http://www.facebook.com/{{ member.facebook }}" target="_blank"></a></li>{% endif %}
+							{% if member.github %}<li><a class="fa fa-github" href="http://www.github.com/{{ member.github }}" target="_blank"></a></li>{% endif %}
+							{% if member.website %}<li><a class="fa fa-globe" href="{{ member.website }}" target="_blank"></a></li>{% endif %}
+						</ul>
+					</div>
+				</div>
+				{% else %}
+				<div class="medium-6 small-12 columns clearfixs">
+					<div class="content--block">
+						<h3 class="content--title">{{ member.name }}</h3>
+						{% if member.companyurl %}
+						<p class="content--company">{{ member.position}} @ <a href="{{ member.companyurl }}" target="_blank">{{ member.company }}</a></p>
+						{% else %}
+						<p class="content--company">{{ member.position}} @ {{ member.company }}</p>
+						{% endif %}
+						<ul class="social--links">
+							{% if member.twitter %}<li><a class="fa fa-twitter" href="http://www.twitter.com/{{ member.twitter }}" target="_blank"></a></li>{% endif %}
+							{% if member.dribbble %}<li><a class="fa fa-dribbble" href="http://www.dribbble.com/{{ member.dribbble }}" target="_blank"></a></li>{% endif %}
+							{% if member.instagram %}<li><a class="fa fa-instagram" href="http://www.instagram.com/{{ member.instagram }}" target="_blank"></a></li>{% endif %}
+							{% if member.facebook %}<li><a class="fa fa-facebook-official" href="http://www.facebook.com/{{ member.facebook }}" target="_blank"></a></li>{% endif %}
+							{% if member.github %}<li><a class="fa fa-github" href="http://www.github.com/{{ member.github }}" target="_blank"></a></li>{% endif %}
+							{% if member.website %}<li><a class="fa fa-globe" href="{{ member.website }}" target="_blank"></a></li>{% endif %}
+						</ul>
+					</div>
+				</div>
+			</div>
+			{% endif %}
+			{% endfor %}
+		</div>
+
+	</div>
 </div>
 </div>

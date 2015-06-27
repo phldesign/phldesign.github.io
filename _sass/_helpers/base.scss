@@ -1,7 +1,25 @@
+html {
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background-color: $off-white;
+}
+
+.wrapper {
+    padding-top: 120px;
+}
+
+@media only screen and (max-width: 768px) {
+    .wrapper {
+        padding-top: 180px;
+    }
+}
+
 a {
-    @include transition(all, 0.2s, ease-in-out);
-    color: $red;
+    @include transition(all, 250ms, ease-in-out);
+    color: $accent;
     &:hover {
-        color: darken($red, 30%);
+        color: $accent-dark;
     }
 }
