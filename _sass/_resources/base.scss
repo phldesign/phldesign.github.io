@@ -9,4 +9,15 @@
     ul {
         margin: 0 0 2em 1em;
     }
+    .content--block {
+        @include BoxShadowHelper($level-1);
+        &:hover {
+            @include BoxShadowHelper($level-1);
+            -ms-transform: translate(0, 0);
+            /* IE 9 */
+            -webkit-transform: translate(0, 0);
+            /* Safari */
+            transform: translate(0, 0);
+        }
+    }
 }
