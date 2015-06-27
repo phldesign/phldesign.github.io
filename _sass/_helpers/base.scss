@@ -10,13 +10,7 @@ body {
     padding-top: 120px;
 }
 
-@media (min-width: 641px) and (max-width: 768px) {
-    .wrapper {
-        padding-top: 157px;
-    }
-}
-
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 768px) {
     .wrapper {
         padding-top: 30px;
     }
