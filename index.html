@@ -42,15 +42,16 @@ fulltitle: "PHL Design"
 	
 		<div class="large-6 medium-6 small-12 columns">
 			<h2 class="page-subhead">Latest Jobs</h2>
-			{% for post in site.categories['jobs']  limit:5 %}
+			{% assign jobPost = site.data.jobs | sort: 'date' | reverse %}
+			{% for job in jobPost limit:5 %}
 			<div class="content--block">
-				<h3 class="content--title">{{ post.position }}</h3>
-				{% if post.companyurl %}
-								<p class="content--company">Company: <a href="{{ post.companyurl }}" target="_blank">{{ post.company }}</a></p>
+				<h3 class="content--title">{{ job.position }}</h3>
+							{% if job.companyurl %}
+								<p class="content--company">Company: <a href="{{ job.companyurl }}" target="_blank">{{ job.company }}</a></p>
 							{% else %}
-	          					<p class="content--company">Company: {{ post.company }}</p>
+	          					<p class="content--company">Company: {{ job.company }}</p>
 	          				{% endif %}
-						<a href="{{ post.joblink }}" target="_blank" ><button class="outline">Apply</button></a>
+						<a href="{{ job.joblink }}" target="_blank" ><button class="outline">Apply</button></a>
 			</div>
 			{% endfor %}
 			<a href="/jobs/"><button class="view--all">View All Jobs</button></a>

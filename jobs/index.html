@@ -16,7 +16,7 @@ fulltitle: "PHL Design"
 			<div class="clearfix">
 				<h2 class="page-subhead">All Jobs ({{post_count}})</h2>
 			</div>
-			{% for job in jobPost %}
+			{% for job in jobPost reversed %}
 			{% assign loopindex = forloop.index | modulo: 2 %}
 			{% if loopindex == 1 %}
 			<div class="row">
