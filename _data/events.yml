@@ -1,5 +1,5 @@
-- title: PANMA and CS Philly Unite
-  subheader: Karen McGrane Presents - Adaptive Content, Context, and Controversy
+- title: 'Karen McGrane Presents: Adaptive Content, Context, and Controversy'
+  subheader: In 2015, 'adaptive content' has become a buzzword. To some, it’s a complex, long-term initiative to structure content for flexible reuse and dynamic targeting.
   time: 5:30pm - 8pm
   date: 2015-06-30
   location: 'Huntsman Hall, Wharton School, University of PA'
@@ -7,7 +7,7 @@
   eventlink: http://www.eventbrite.com/e/panma-and-cs-philly-unite-karen-mcgrane-presents-adaptive-content-context-and-controversy-tickets-17023215897
 
 - title: Fix Yo Self Rd 2 
-  subheader: 'A Monthlty Peer-Pressure Powered One Day Portfolio Site Redesign-athon.' 
+  subheader: A Monthlty Peer-Pressure Powered One Day Portfolio Site Redesign-athon.<BR><strong>Pro-tip:</strong> Bring Laptops, power cords, $$ for coffee/drinks/food. They have 50 cent refills on iced and regular coffee. so bring some cash.
   time: 9:30am - 4pm or later
   date: 2015-07-12
   location: 'Chapterhouse (9th & Bainbridge)'
@@ -22,7 +22,7 @@
   button: true
   eventlink: http://nvite.com/DribbblePhillyMeetup/d44c
 
-- title: 99U Local - Philadelphia
+- title: <i class="fa fa-group"></i>&nbsp; 99U Local - Philadelphia
   subheader:
   time: 7pm
   date: 2015-09-14
@@ -38,8 +38,8 @@
   button: true
   eventlink: http://www.meetup.com/ux-philly/events/223422944/
 
-- title: Always Be Human
-  subheader: A Talk on P'unk Ave's Journey Towards a Better Company Culture
+- title: "Always Be Human: A Talk on P'unk Ave's Journey Towards a Better Company Culture"
+  subheader: "If you were responsible for creating the ideal company culture, what would you do? Running a company gives you that opportunity, but it also gives you the opportunity to screw it up royally."
   time: 6:30pm - 8pm
   date: 2015-07-09
   location: Drexel University's URBN Annex Screening Room
@@ -71,7 +71,7 @@
   eventlink: http://refreshphilly.ticketleap.com/20151008/
 
 - title: Philly Dev Night
-  subheader: Game Jam Kickoff
+  subheader: Game Jam Kickoff<BR>Dev Night is a once-a-week event geared towards anyone interested in playing or creating games. It doesn’t matter if you’re an aspiring game developer, artist, writer, or even just a gamer; Dev Night will have something to offer.
   time: 7pm - ?
   date: 2015-07-02
   location: Philly Game Forge
@@ -79,7 +79,7 @@
   eventlink: http://phillydevnight.com/
 
 - title: Philly Dev Night
-  subheader: Game Club - rymdkapsel
+  subheader: Game Club - rymdkapsel<BR>Dev Night is a once-a-week event geared towards anyone interested in playing or creating games. It doesn’t matter if you’re an aspiring game developer, artist, writer, or even just a gamer; Dev Night will have something to offer.
   time: 7pm - ?
   date: 2015-07-09
   location: Philly Game Forge
@@ -87,9 +87,57 @@
   eventlink: http://phillydevnight.com/
 
 - title: Philly Dev Night
-  subheader: Game Jam Showcase
+  subheader: Game Jam Showcase<BR>Dev Night is a once-a-week event geared towards anyone interested in playing or creating games. It doesn’t matter if you’re an aspiring game developer, artist, writer, or even just a gamer; Dev Night will have something to offer.
   time: 7pm - ?
   date: 2015-07-16
   location: Philly Game Forge
   button: true
   eventlink: http://phillydevnight.com/
+
+- title: <i class="fa fa-group"></i>&nbsp; Forge Conference 2015
+  subheader: 'Home to America’s original makers, Philadelphia has tons of great people, meetups and groups, but Forge Conference is the flagship event for those making an impact in the digital space. '
+  time: 
+  date: 2015-10-09
+  location: University of Pennsylvania Museum of Archaeology & Anthropology
+  button: true
+  eventlink: http://forgeconf.com/
+
+- title: Build Guild Philly
+  subheader: 'Build Guild is a bunch of web folks that enjoy chatting over drinks. It happens the last Wednesday of every month.'
+  time: 6pm
+  date: 2015-07-29
+  location: Khyber Pass Pub
+  button: true
+  eventlink: http://www.meetup.com/Build-Guild-Philly/events/222715157/
+
+- title: Build Guild Philly
+  subheader: In honor of the contributions of Eric Meyer to both the web and Build Guild community, this month we are asking people that attend to donate to <a href="http://www.gofundme.com/CelebratingRebecca" target="_blank">Celebrating Rebecca</a>
+  time: 6pm
+  date: 2015-08-26
+  location: Khyber Pass Pub
+  button: true
+  eventlink: http://www.meetup.com/Build-Guild-Philly/events/dtlghkytlbjc/
+
+- title: Front-End Workshop w/ Wine + Code @ Zivtech!
+  subheader: We’re happy to announce a jointly hosted meetup with Wine + Code for July. This will be a workshop and we encourage everyone to bring projects that you are working on to discuss, recruit assistance, or just ask questions.
+  time: 6pm
+  date: 2015-07-06
+  location: Zivtech
+  button: true
+  eventlink: http://www.meetup.com/phlfux/events/223482416/
+
+- title: Mobile Design Challenge
+  subheader: Ready for another design challenge?<BR>The project will be a native iOS application and the details will be discussed at the time of the event.  We will divide the group into small teams, based on experience level, and you will have two hours to design an interface with your team using whatever tools you like. 
+  time: 6pm - 9pm
+  date: 2015-07-16
+  location: Azavea
+  button: true
+  eventlink: http://www.meetup.com/Philadelphia-UI-UX-Design-Meetup/events/223189282/
+
+- title: Design for Care with Prescribe Design
+  subheader: Philadelphia's healthcare industry is booming, and good user experience is at the forefront. For this month's book club, we're pairing with Prescribe Design to talk about Design for Care- Innovating Healthcare Experience by Peter Jones.
+  time: 5:45pm to 8:45pm
+  date: 2015-07-09
+  location: Jordan Medical Education Center, 5th Fl, Rm. 516
+  button: true
+  eventlink: http://www.meetup.com/UX-Book-Club-Philly/events/222402062/

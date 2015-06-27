@@ -9,8 +9,11 @@ fulltitle: "PHL Design"
 <div class="wrapper">
 	<div class="row">
 		<div class="small-12 columns">
+		{% for event in site.categories.jobs %}
+  			{% capture post_count %} {{ post_count | plus: 1 }} {% endcapture %}
+		{% endfor %}
 			<div class="clearfix">
-				<h2 class="page-subhead">All Jobs</h2>
+				<h2 class="page-subhead">All Jobs ({{post_count}})</h2>
 			</div>
 			{% for post in site.categories['jobs']%}
 			

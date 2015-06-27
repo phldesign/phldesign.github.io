@@ -7,10 +7,14 @@ fulltitle: "PHL Design"
 <div class="wrapper">
 	<div class="row">
 		<div class="small-12 columns">
+		{% assign eventPost = site.data.events | sort: 'date' %}
+		{% for event in site.data.events %}
+  			{% capture post_count %} {{ post_count | plus: 1 }} {% endcapture %}
+		{% endfor %}
 			<div class="clearfix">
-				<h2 class="page-subhead">All Upcoming Events</h2>
+				<h2 class="page-subhead">Upcoming Events ({{post_count}})</h2>
 			</div>
-			{% assign eventPost = site.data.events | sort: 'date' %}
+			
 			{% for event in eventPost %}
 			{% assign curDate = site.time | date: '%m/%d/%Y' %}
 			{% assign postStartDate = event.date | date: '%m/%d/%Y' %}
@@ -23,7 +27,11 @@ fulltitle: "PHL Design"
 						<div class="event--info">
 							<p class="content--date">{{ event.date | date: '%B %-d, %Y' }}</p>
 							<h3 class="content--title">{{ event.title }}</h3>
+							{% if event.time %}
 							<p class="content--location"><strong>{{ event.location }}</strong> at <strong>{{ event.time }}</strong></p>
+							{% else %}
+							<p class="content--location"><strong>{{ event.location }}</strong></p>
+							{%  endif %}
 							{% if event.subheader %}
 							<p class="content--description">{{ event.subheader }}</p>
 							{% endif %}
@@ -39,7 +47,11 @@ fulltitle: "PHL Design"
 						<div class="event--info">
 							<p class="content--date">{{ event.date | date: '%B %-d, %Y' }}</p>
 							<h3 class="content--title">{{ event.title }}</h3>
+							{% if event.time %}
 							<p class="content--location"><strong>{{ event.location }}</strong> at <strong>{{ event.time }}</strong></p>
+							{% else %}
+							<p class="content--location"><strong>{{ event.location }}</strong></p>
+							{%  endif %}
 							{% if event.subheader %}
 							<p class="content--description">{{ event.subheader }}</p>
 							{% endif %}
