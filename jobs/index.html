@@ -9,38 +9,38 @@ fulltitle: "PHL Design"
 <div class="wrapper">
 	<div class="row">
 		<div class="small-12 columns">
-		{% for event in site.categories.jobs %}
+		{% assign jobPost = site.data.jobs | sort: 'date' %}
+		{% for job in site.data.jobs %}
   			{% capture post_count %} {{ post_count | plus: 1 }} {% endcapture %}
 		{% endfor %}
 			<div class="clearfix">
 				<h2 class="page-subhead">All Jobs ({{post_count}})</h2>
 			</div>
-			{% for post in site.categories['jobs']%}
-			
+			{% for job in jobPost %}
 			{% assign loopindex = forloop.index | modulo: 2 %}
 			{% if loopindex == 1 %}
 			<div class="row">
 				<div class="medium-6 small-12 columns clearfixs">
 					<div class="content--block">
-						<h3 class="content--title">{{ post.position }}</h3>
-							{% if post.companyurl %}
-								<p class="content--company">Company: <a href="{{ post.companyurl }}" target="_blank">{{ post.company }}</a></p>
+						<h3 class="content--title">{{ job.position }}</h3>
+							{% if job.companyurl %}
+								<p class="content--company">Company: <a href="{{ job.companyurl }}" target="_blank">{{ job.company }}</a></p>
 							{% else %}
-	          					<p class="content--company">Company: {{ post.company }}</p>
+	          					<p class="content--company">Company: {{ job.company }}</p>
 	          				{% endif %}
-						<a href="{{ post.joblink }}" target="_blank" ><button class="outline">Apply</button></a>
+						<a href="{{ job.joblink }}" target="_blank" ><button class="outline">Apply</button></a>
 					</div>
 				</div>
 				{% else %}
 				<div class="medium-6 small-12 columns clearfixs">
 					<div class="content--block">
-						<h3 class="content--title">{{ post.position }}</h3>
-						{% if post.companyurl %}
-								<p class="content--company">Company: <a href="{{ post.companyurl }}" target="_blank">{{ post.company }}</a></p>
+						<h3 class="content--title">{{ job.position }}</h3>
+							{% if job.companyurl %}
+								<p class="content--company">Company: <a href="{{ job.companyurl }}" target="_blank">{{ job.company }}</a></p>
 							{% else %}
-	          					<p class="content--company">Company: {{ post.company }}</p>
+	          					<p class="content--company">Company: {{ job.company }}</p>
 	          				{% endif %}
-						<a href="{{ post.joblink }}" target="_blank" ><button class="outline">Apply</button></a>
+						<a href="{{ job.joblink }}" target="_blank" ><button class="outline">Apply</button></a>
 					</div>
 				</div>
 			</div>

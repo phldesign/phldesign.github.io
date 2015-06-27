@@ -7,11 +7,13 @@ fulltitle: "Members Directory"
 <div class="wrapper">
 	<div class="row">
 		<div class="small-12 columns">
+		{% assign memberPost = site.data.members | sort: 'name' %}
+		{% for members in site.data.members %}
+  			{% capture post_count %} {{ post_count | plus: 1 }} {% endcapture %}
+		{% endfor %}
 			<div class="clearfix">
-				<h2 class="page-subhead">Members Directory</h2>
+				<h2 class="page-subhead">Members Directory ({{post_count}})</h2>
 			</div>
-
-			{% assign memberPost = site.data.members | sort: 'name' %}
 			{% for member in memberPost %}
 			{% assign loopindex = forloop.index | modulo: 2 %}
 			{% if loopindex == 1 %}
