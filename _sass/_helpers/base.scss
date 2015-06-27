@@ -19,7 +19,11 @@ body {
 a {
     @include transition(all, 250ms, ease-in-out);
     color: $accent;
-    &:hover {
+    text-decoration: underline;
+    &:visited {
         color: $accent-dark;
+    }
+    &:hover {
+        color: darken($accent-dark, 20%);
     }
 }
