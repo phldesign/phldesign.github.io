@@ -1,0 +1,24 @@
+---
+layout: default
+title: "Links &amp; Resources"
+fulltitle: "Links &amp; Resources" 
+---
+<!-- fulltitle: This overrides the default page title, which is "{{page.tite}} | {{site.title}}" -->
+<!-- excerpt: If this isn't set, it'll pull your {{site.tagline}} for meta description-->
+
+<div class="wrapper links--resources">
+	<div class="row">
+		<div class="small-12 columns">
+			<h2 class="page-subhead">Links &amp; Resources</h2>
+			{% for post in site.categories['resources'] %}
+			<div class="row">
+				<div class="small-12 columns clearfixs">
+					<div class="content--block">
+						{{ post.content }}
+					</div>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>
