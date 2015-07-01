@@ -5,19 +5,19 @@
 
 	<!-- Plain Description -->
 	<title>{{ site.title }}</title>
-	<meta name="description" content="{% if page.excerpt %}{{page.excerpt}}{% else %}{{site.tagline}}{% endif %}">
+	<meta name="description" content="Philadelphia based Community for Designers and Devs">
 	<link rel="icon" type="image/png" href="/favicon.png">
 	
 	<!-- Google+ -->
 	<link rel="publisher" href="https://plus.google.com/{{site.googleplus}}"/>
 	<meta itemprop="name" content="{% if page.fulltitle %}{{page.fulltitle}}{% else %}{{page.title}} | {{ site.title }} {% endif %}">
-	<meta itemprop="description" content="{% if page.excerpt %}{{page.excerpt}}{% else %}{{site.tagline}}{% endif %}">
+	<meta itemprop="description" content="Philadelphia based Community for Designers and Devs">
 	<meta itemprop="image" content="{% if page.image %}{{site.url}}{{page.image}}{% else %}{{site.url}}{{site.socialimg}}{% endif %}">
 	
 	<!-- Facebook -->
 	<meta property="og:type" content="website"/>
 	<meta property="og:title" content="{% if page.fulltitle %}{{page.fulltitle}}{% else %}{{page.title}} | {{ site.title }} {% endif %}"/>
-	<meta property="og:description" content="{% if page.excerpt %}{{page.excerpt}}{% else %}{{site.tagline}}{% endif %}"/>
+	<meta property="og:description" content="Philadelphia based Community for Designers and Devs"/>
 	<meta property="og:image" content="{% if page.image %}{{site.url}}{{page.image}}{% else %}{{site.url}}{{site.socialimg}}{% endif %}"/>
 	<meta property="og:url" content="{{site.url}}{{page.url}}"/>
 	<meta property="og:site_name" content="{{ site.title }} "/>
