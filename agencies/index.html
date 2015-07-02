@@ -1,0 +1,49 @@
+---
+layout: default
+title: "Agency List"
+fulltitle: "PHL Design" 
+---
+<!-- fulltitle: This overrides the default page title, which is "{{page.tite}} | {{site.title}}" -->
+<!-- excerpt: If this isn't set, it'll pull your {{site.tagline}} for meta description-->
+
+<div class="wrapper">
+	<div class="row">
+		<div class="small-12 columns">
+		{% assign agencyPost = site.data.agencies | sort: 'company' %}
+		{% for agency in site.data.agencies %}
+  			{% capture post_count %} {{ post_count | plus: 1 }} {% endcapture %}
+		{% endfor %}
+			<div class="clearfix">
+				<h2 class="page-subhead links"><span class="selected">Agencies</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/members">Members</a></h2>
+			</div>
+			{% for agency in agencyPost %}
+			{% assign loopindex = forloop.index | modulo: 2 %}
+			{% if loopindex == 1 %}
+			<div class="row">
+				<div class="medium-6 small-12 columns clearfixs">
+					<div class="content--block">
+						<h3 class="content--title">{{ agency.company }}</h3>
+						<p class="content--company">{{ agency.address }}</p>
+						<ul class="social--links">
+							{% if agency.twitter %}<li><a class="fa fa-twitter" href="http://www.twitter.com/{{ agency.twitter }}" target="_blank"></a></li>{% endif %}
+							{% if agency.website %}<li><a class="fa fa-globe" href="{{ agency.website }}" target="_blank"></a></li>{% endif %}
+						</ul>
+					</div>
+				</div>
+				{% else %}
+				<div class="medium-6 small-12 columns clearfixs">
+					<div class="content--block">
+						<h3 class="content--title">{{ agency.company }}</h3>
+						<p class="content--company">{{ agency.address }}</p>
+						<ul class="social--links">
+							{% if agency.twitter %}<li><a class="fa fa-twitter" href="http://www.twitter.com/{{ agency.twitter }}" target="_blank"></a></li>{% endif %}
+							{% if agency.website %}<li><a class="fa fa-globe" href="{{ agency.website }}" target="_blank"></a></li>{% endif %}
+						</ul>
+					</div>
+				</div>
+				</div>
+			{% endif %}
+			{% endfor %}
+		</div>
+	</div>
+</div>
