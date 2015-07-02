@@ -7,6 +7,18 @@
     color: $grey;
 }
 
+.page-subhead.links {
+    a {
+        color: $primary;
+        text-decoration: none;
+        &:hover {
+            color: $primary-dark;
+            padding-bottom: 2x;
+            border-bottom: 2px solid $primary-dark;
+        }
+    }
+}
+
 .content--block {
     @include transition(all, 250ms, ease-in-out);
     @include BoxShadowHelper($level-1);
