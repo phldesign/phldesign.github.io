@@ -62,3 +62,78 @@
   address: '3 Rector St #2, Philadelphia, PA 19127'
   twitter: IntuitiveCo
   website: https://intuitivecompany.com/
+
+- company: 'Cipher Prime'
+  address: '239 Chestnut St. Suite 2A, Philadelphia, PA 19106'
+  twitter: cipherprime
+  website: http://www.cipherprime.com/
+
+- company: 'Ticketleap'
+  address: '2401 Walnut St, Philadelphia, PA 19103'
+  twitter: ticketleap
+  website: http://www.ticketleap.com/
+
+- company: 'Famehouse'
+  address: 'Philadelphia, PA'
+  twitter: FameHouse
+  website: http://famehouse.net/
+
+- company: 'Curalate'
+  address: '2401 Walnut St #502, Philadelphia, PA 19103'
+  twitter: curalate
+  website: http://www.curalate.com/
+
+- company: 'Scala'
+  address: '7 Great Valley Pkwy #300, Malvern, PA 19355'
+  twitter: scalainc
+  website: http://scala.com/
+
+- company: 'Guru'
+  address: '32 S Strawberry Street, 3rd Floor, Philadelphia, PA 19106'
+  twitter: Guru_HQ
+  website: https://www.getguru.com/
+
+- company: 'Empathy Lab'
+  address: '101 East 8th Ave, Suite 201, Conshohocken, PA 19428'
+  twitter: empathylab
+  website: http://empathylab.epam.com/
+
+- company: 'Pipeline Deals'
+  address: '565 E. Swedesford Road, Suite 209, Wayne, PA 19087'
+  twitter: pipelinedeals
+  website: https://www.pipelinedeals.com/
+
+- company: 'Digitas Health'
+  address: '100 E Penn Square # 1290, Philadelphia, PA 19107'
+  twitter: digitas_health
+  website: http://www.digitashealth.com/
+
+- company: 'Masterminds'
+  address: '1315 Walnut Street, Suite 300, Philadelphia, PA 19107'
+  twitter: masterminds
+  website: http://mastermindsagency.com/
+
+- company: 'Artisan'
+  address: '234 Market St #4, Philadelphia, PA 19106'
+  twitter: artisanmobile
+  website: http://useartisan.com/
+
+- company: 'Quaker City Mercantile'
+  address: '114-120 S 13th St, Philadelphia, PA'
+  twitter: qcmercantile
+  website: http://quakercitymercantile.com/
+
+- company: 'Thoughtbot'
+  address: '2401 Walnut St, Suite 102, Philadelphia, PA 19103'
+  twitter: thoughtbot
+  website: https://thoughtbot.com/
+
+- company: 'Mighty Engine'
+  address: '219 Cuthbert Street, Suite 600, Philadelphia, PA 19106'
+  twitter: themightyengine
+  website: http://themightyengine.com/
+
+- company: 'Sides Media'
+  address: '13250 Trevose Rd., Philadelphia, PA 19116'
+  twitter: SidesMedia
+  website: http://sidesmedia.com/

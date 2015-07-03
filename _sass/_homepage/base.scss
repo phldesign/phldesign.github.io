@@ -9,14 +9,19 @@
 
 .page-subhead.links {
     a {
-        color: $primary;
+        color: $grey-dark;
         text-decoration: none;
-        border-bottom: 2px solid $primary;
         &:hover {
             color: $primary-dark;
             padding-bottom: 3x;
             border-bottom: 2px solid $primary-dark;
         }
+    }
+    .selected {
+        font: {
+            weight: 600;
+        };
+        color: $primary;
     }
 }
 

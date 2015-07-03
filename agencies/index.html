@@ -14,7 +14,7 @@ fulltitle: "PHL Design"
   			{% capture post_count %} {{ post_count | plus: 1 }} {% endcapture %}
 		{% endfor %}
 			<div class="clearfix">
-				<h2 class="page-subhead links"><span class="selected">Agencies</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/members">Members</a></h2>
+				<h2 class="page-subhead links"><span class="selected">Agencies</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/members">Members</a></h2>
 			</div>
 			{% for agency in agencyPost %}
 			{% assign loopindex = forloop.index | modulo: 2 %}

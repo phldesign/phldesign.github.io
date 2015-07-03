@@ -12,7 +12,7 @@ fulltitle: "Members Directory"
   			{% capture post_count %} {{ post_count | plus: 1 }} {% endcapture %}
 		{% endfor %}
 			<div class="clearfix">
-				<h2 class="page-subhead links"><a href="/agencies">Agencies</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="selected">Members</span></h2>
+				<h2 class="page-subhead links"><a href="/agencies">Agencies</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="selected">Members</span></h2>
 			</div>
 			{% for member in memberPost %}
 			{% assign loopindex = forloop.index | modulo: 2 %}
