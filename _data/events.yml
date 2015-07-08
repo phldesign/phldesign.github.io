@@ -62,13 +62,6 @@
   button: true
   eventlink: http://refreshphilly.ticketleap.com/20151008/
 
-- title: Philly Dev Night
-  subheader: Game Jam Kickoff<BR>Dev Night is a once-a-week event geared towards anyone interested in playing or creating games. It doesn’t matter if you’re an aspiring game developer, artist, writer, or even just a gamer; Dev Night will have something to offer.
-  time: 7pm - ?
-  date: 2015-07-02
-  location: Philly Game Forge
-  button: true
-  eventlink: http://phillydevnight.com/
 
 - title: Philly Dev Night
   subheader: Game Club - rymdkapsel<BR>Dev Night is a once-a-week event geared towards anyone interested in playing or creating games. It doesn’t matter if you’re an aspiring game developer, artist, writer, or even just a gamer; Dev Night will have something to offer.
@@ -110,14 +103,6 @@
   button: true
   eventlink: http://www.meetup.com/Build-Guild-Philly/events/dtlghkytlbjc/
 
-- title: Front-End Workshop w/ Wine + Code @ Zivtech!
-  subheader: We’re happy to announce a jointly hosted meetup with Wine + Code for July. This will be a workshop and we encourage everyone to bring projects that you are working on to discuss, recruit assistance, or just ask questions.
-  time: 6pm
-  date: 2015-07-06
-  location: Zivtech
-  button: true
-  eventlink: http://www.meetup.com/phlfux/events/223482416/
-
 - title: Mobile Design Challenge
   subheader: Ready for another design challenge?<BR>The project will be a native iOS application and the details will be discussed at the time of the event.  We will divide the group into small teams, based on experience level, and you will have two hours to design an interface with your team using whatever tools you like. 
   time: 6pm - 9pm
@@ -141,3 +126,11 @@
   location: Franklin Square Headquarters at the Philadelphia Navy Yard 
   button: true
   eventlink: https://www.eventbrite.com/e/in-the-conference-for-in-house-creatives-tickets-17467134670?ref=ebapi
+
+- title: Cracking the SVG Code with Brenda Storer
+  subheader: SVGs: their code looks kind of familiar, but have you ever tried to edit one and up breaking the whole darn thing?
+  time: 7:00pm
+  date: 2015-07-23
+  location: Happy Cog - 1315 Walnut Street, Suite 201, Philadelphia, PA
+  button: true
+  eventlink: http://www.meetup.com/frontendphilly/events/222542808/?a=co2_grp&gj=co2&rv=co2
