@@ -16,6 +16,9 @@ fulltitle: "PHL Design"
 			</div>
 			
 			{% for event in eventPost %}
+			{% assign curDate = site.time | date: '%m/%d/%Y' %}
+			{% assign postStartDate = event.date | date: '%m/%d/%Y' %}
+			{% if postStartDate >= curDate %}
 			{% assign loopindex = forloop.index | modulo: 2 %}
 			{% if loopindex == 1 %}
 			<div class="row">
