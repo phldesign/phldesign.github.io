@@ -20,7 +20,7 @@ fulltitle: "Members Directory"
 			<div class="row">
 				<div class="medium-6 small-12 columns clearfixs">
 					<div class="content--block">
-						<h3 class="content--title">{{ member.name }}</h3>
+						<h3 class="content--title"><a href="#{{ member.name }}">{{ member.name }}</a></h3>
 						{% if member.companyurl %}
 						<p class="content--company">{{ member.position}} @ <a href="{{ member.companyurl }}" target="_blank">{{ member.company }}</a></p>
 						{% else %}
@@ -39,7 +39,7 @@ fulltitle: "Members Directory"
 				{% else %}
 				<div class="medium-6 small-12 columns clearfixs">
 					<div class="content--block">
-						<h3 class="content--title">{{ member.name }}</h3>
+						<h3 class="content--title"><a href="#{{ member.name }}">{{ member.name }}</a></h3>
 						{% if member.companyurl %}
 						<p class="content--company">{{ member.position}} @ <a href="{{ member.companyurl }}" target="_blank">{{ member.company }}</a></p>
 						{% else %}
