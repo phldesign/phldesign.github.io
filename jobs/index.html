@@ -44,7 +44,7 @@ fulltitle: "PHL Design"
 	          					<p class="content--company">Company: {{ job.company }}</p>
 	          				{% endif %}
 	          				{% if job.reference %}
-	          					<p class="content--company">Point of Contact: {{ job.reference }}</p>
+	          					<p class="content--company">Point of Contact: <a href="/members#{{ job.reference }}">{{ job.reference }}</a></p>
 	          				{% endif %}
 						<a href="{{ job.joblink }}" target="_blank" ><button class="outline">Apply</button></a>
 					</div>

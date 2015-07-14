@@ -909,13 +909,35 @@
   github: 
   website: https://www.behance.net/chrismcd
 
-- name: Chris McDonnell
-  position: Animator/Illustrator
-  company: McD Workshop LLC
-  companyurl: http://mcdworkshop.com
-  twitter: meathaus
-  dribbble: chrismcd
+- name: Mark Amadio
+  position: Design Director
+  company: O3 World
+  companyurl: http://o3world.com/
+  twitter: markamadio
+  dribbble: markamadio
   facebook: 
-  instagram: chrismcdchris
+  instagram: 
   github: 
-  website: https://www.behance.net/chrismcd
+  website: http://www.markamadio.com/portfolio/
+
+- name: Michael Gadsby
+  position: 'Founding Partner, CXO'
+  company: O3 World
+  companyurl: http://o3world.com/
+  twitter: gadsbyo3world
+  dribbble: 
+  facebook: 
+  instagram: 
+  github: 
+  website: 
+
+- name: Kyle Cook
+  position: Interaction Designer
+  company: Intuitive Co
+  companyurl: https://intuitivecompany.com/
+  twitter: 
+  dribbble: 
+  facebook: 
+  instagram: 
+  github: 
+  website: http://kyco.co/
