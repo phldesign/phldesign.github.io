@@ -3,6 +3,7 @@
   company: 76ers
   companyurl: http://76ers.com
   joblink: http://phillyadclub.com/job/graphic-designer-6/
+  reference: John Kane
 
 - date: 2015-06-22
   position: Lead UI/UX Designer
@@ -15,30 +16,35 @@
   company: Music Choice
   companyurl: https://www.musicchoice.com/
   joblink: https://musicchoice.applicantpro.com/jobs/239061.html
+  reference: Ariel Braverman
 
 - date: 2015-06-24
   position: Front-End Developer
   company: 160over90
   companyurl: http://160over90.com
   joblink: http://www.160over90.com/jobs/
+  reference: Patrick Macomber
 
 - date: 2015-06-24
   position: Product Designer
   company: Curalate
   companyurl: http://www.curalate.com/
   joblink: 'https://boards.greenhouse.io/curalate/jobs/62065#.VaPKXpNVhBd'
+  reference: Andy O'Dore
 
 - date: 2015-06-24
   position: UX Designers
   company: Intuitive Company
   companyurl: https://intuitivecompany.com/
   joblink: http://intuitivecompany.com/blog/blog_post/careers
+  reference: Brandon Sax
 
 - date: 2015-06-24
   position: UX/UI Lead Designer
   company: OneTwoSee
   companyurl: http://onetwosee.com/
   joblink: http://www.ircstaff.com/node/267
+  reference: Ben Rush
 
 - date: 2015-06-24
   position: Front-End Developer
@@ -93,3 +99,4 @@
   company: P'unk Ave
   companyurl: http://punkave.com/
   joblink: http://jobs.punkave.com/designer
+  reference: Matt Goold

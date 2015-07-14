@@ -51,6 +51,9 @@ fulltitle: "PHL Design"
 							{% else %}
 	          					<p class="content--company">Company: {{ job.company }}</p>
 	          				{% endif %}
+	          				{% if job.reference %}
+	          					<p class="content--company">Point of Contact: {{ job.reference }}</p>
+	          				{% endif %}
 						<a href="{{ job.joblink }}" target="_blank" ><button class="outline">Apply</button></a>
 			</div>
 			{% endfor %}
