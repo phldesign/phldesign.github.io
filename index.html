@@ -10,21 +10,21 @@ fulltitle: "PHL Design"
 	<div class="row">
 		<div class="large-6 medium-6 small-12 columns">
 			<h2 class="page-subhead">Upcoming Events</h2>
-	
-			{% assign eventPost = site.data.events | sort: 'date' %}
-			{% for event in eventPost limit:5 %}
+
 			{% assign curDate = site.time | date: '%Y-%m-%d' %}
-			{% assign postStartDate = event.date | date: '%Y-%m-%d' %}
+			{% assign postStartDate = site.data.events.date | date: '%Y-%m-%d' %}
+			{% assign eventPost = site.data.events | sort: 'date'  %}
+			{% for event in eventPost limit:5 %}
 			{% if postStartDate >= curDate %}
 			<div class="content--block">
 				<div class="event--info">
 					<p class="content--date">{{ event.date | date: '%B %-d, %Y' }}</p>
 					<h3 class="content--title">{{ event.title }}</h3>
 					{% if event.time %}
-							<p class="content--location"><strong>{{ event.location }}</strong> at <strong>{{ event.time }}</strong></p>
-							{% else %}
-							<p class="content--location"><strong>{{ event.location }}</strong></p>
-							{%  endif %}
+					<p class="content--location"><strong>{{ event.location }}</strong> at <strong>{{ event.time }}</strong></p>
+					{% else %}
+					<p class="content--location"><strong>{{ event.location }}</strong></p>
+					{%  endif %}
 					{% if event.subheader %}
 					<p class="content--description">{{ event.subheader }}</p>
 					{% endif %}
@@ -33,32 +33,27 @@ fulltitle: "PHL Design"
 				<a href="{{ event.eventlink }}" target="_blank"><button class="outline">Attend</button></a>
 				{% endif %}
 			</div>
-			{% endif %}
 			{% endfor %}
 			<a href="/events/"><button class="view--all">View All Events</button></a>
-	
 		</div>
-	
-	
 		<div class="large-6 medium-6 small-12 columns">
 			<h2 class="page-subhead">Latest Jobs</h2>
 			{% assign jobPost = site.data.jobs | sort: 'date' | reverse %}
 			{% for job in jobPost limit:5 %}
 			<div class="content--block">
 				<h3 class="content--title">{{ job.position }}</h3>
-							{% if job.companyurl %}
-								<p class="content--company">Company: <a href="{{ job.companyurl }}" target="_blank">{{ job.company }}</a></p>
-							{% else %}
-	          					<p class="content--company">Company: {{ job.company }}</p>
-	          				{% endif %}
-	          				{% if job.reference %}
-	          					<p class="content--company">Point of Contact: <a href="/members#{{ job.reference }}">{{ job.reference }}</a></p>
-	          				{% endif %}
-						<a href="{{ job.joblink }}" target="_blank" ><button class="outline">Apply</button></a>
+				{% if job.companyurl %}
+				<p class="content--company">Company: <a href="{{ job.companyurl }}" target="_blank">{{ job.company }}</a></p>
+				{% else %}
+				<p class="content--company">Company: {{ job.company }}</p>
+				{% endif %}
+				{% if job.reference %}
+				<p class="content--company">Point of Contact: <a href="/members#{{ job.reference }}">{{ job.reference }}</a></p>
+				{% endif %}
+				<a href="{{ job.joblink }}" target="_blank" ><button class="outline">Apply</button></a>
 			</div>
 			{% endfor %}
 			<a href="/jobs/"><button class="view--all">View All Jobs</button></a>
 		</div>
-	
 	</div>
 </div>

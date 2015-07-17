@@ -46,14 +46,6 @@
   button: true
   eventlink: http://refreshphilly.ticketleap.com/20151008/
 
-- title: Philly Dev Night
-  subheader: "Game Jam Showcase<BR>Dev Night is a once-a-week event geared towards anyone interested in playing or creating games. It doesn’t matter if you’re an aspiring game developer, artist, writer, or even just a gamer; Dev Night will have something to offer."
-  time: 7pm - ?
-  date: 2015-07-16
-  location: Philly Game Forge
-  button: true
-  eventlink: http://phillydevnight.com/
-
 - title: <i class="fa fa-group"></i>&nbsp; Forge Conference 2015
   subheader: 'Home to America’s original makers, Philadelphia has tons of great people, meetups and groups, but Forge Conference is the flagship event for those making an impact in the digital space. '
   time: 
@@ -77,14 +69,6 @@
   location: Khyber Pass Pub
   button: true
   eventlink: http://www.meetup.com/Build-Guild-Philly/events/dtlghkytlbjc/
-
-- title: Mobile Design Challenge
-  subheader: Ready for another design challenge?<BR>The project will be a native iOS application and the details will be discussed at the time of the event.  We will divide the group into small teams, based on experience level, and you will have two hours to design an interface with your team using whatever tools you like. 
-  time: 6pm - 9pm
-  date: 2015-07-16
-  location: Azavea
-  button: true
-  eventlink: http://www.meetup.com/Philadelphia-UI-UX-Design-Meetup/events/223189282/
 
 - title: '@in - The Conference for In-House Creatives'
   subheader: 'AIGA Philly is proud to announce @in - the conference for in-house creatives. It will be a day of insight + inspiration featuring some of the most dynamic and influential in-house creative heroes!'
