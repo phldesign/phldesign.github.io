@@ -1,27 +1,30 @@
 .page-subhead {
     font: {
         size: 21px;
+        weight: 700;
     };
     margin: 0;
     display: inline;
-    color: $grey;
+    color: white;
 }
 
 .page-subhead.links {
     a {
         color: $grey-dark;
+        padding-bottom: 3x;
         text-decoration: none;
+        border-bottom: 2px solid $grey-dark;
         &:hover {
-            color: $primary-dark;
+            color: white;
             padding-bottom: 3x;
-            border-bottom: 2px solid $primary-dark;
+            border-bottom: 2px solid white;
         }
     }
     .selected {
         font: {
             weight: 600;
         };
-        color: $primary;
+        color: white;
     }
 }
 

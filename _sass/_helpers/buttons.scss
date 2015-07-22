@@ -1,6 +1,6 @@
 button {
     @include transition(all, 250ms, ease-in-out);
-    background-color: $accent;
+    background-color: $primary;
     border: none;
     padding: .35em 2em;
     color: white;
