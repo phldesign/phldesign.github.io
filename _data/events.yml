@@ -14,14 +14,6 @@
   button: true
   eventlink: http://www.meetup.com/99U-Local-Philadelphia/events/222535504/
 
-- title: N3RD St. Speed Critique
-  subheader: Shame On UX - User Experience Meetup
-  time: 5:30pm
-  date: 2015-07-22
-  location: Arcweb Office
-  button: true
-  eventlink: http://www.meetup.com/ux-philly/events/223422944/
-
 - title: TBD with Roz Duffy
   subheader: By Refresh Philly
   time: 6:30pm - 8pm
@@ -77,14 +69,6 @@
   location: Franklin Square Headquarters at the Philadelphia Navy Yard 
   button: true
   eventlink: https://www.eventbrite.com/e/in-the-conference-for-in-house-creatives-tickets-17467134670?ref=ebapi
-
-- title: Cracking the SVG Code with Brenda Storer
-  subheader: SVGs - their code looks kind of familiar, but have you ever tried to edit one and up breaking the whole darn thing?
-  time: 7:00pm
-  date: 2015-07-23
-  location: Happy Cog - 1315 Walnut Street, Suite 201, Philadelphia, PA
-  button: true
-  eventlink: http://www.meetup.com/frontendphilly/events/222542808/?a=co2_grp&gj=co2&rv=co2
   
 - title: 'Wine + Code: CSS Animations with Victor Lourng'
   subheader: In this workshop you’ll be learning about all of the different aspects of CSS animations, transitions, and keyframes from start to finish.
@@ -93,14 +77,6 @@
   location: Indy Hall
   button: true
   eventlink: http://www.meetup.com/Wine-Code/events/223787827/
-
-- title: 'Philly Dev Night'
-  subheader: 'Dev Night is a once-a-week event geared towards anyone interested in playing or creating games. It doesn’t matter if you’re an aspiring game developer, artist, writer, or even just a gamer; Dev Night will have something to offer.'
-  time: 7:00pm
-  date: 2015-07-23
-  location: Philly Game Forge, 239 Chestnut St.
-  button: true
-  eventlink:
 
 - title: 'Philly Dev Night'
   subheader: 'Dev Night is a once-a-week event geared towards anyone interested in playing or creating games. It doesn’t matter if you’re an aspiring game developer, artist, writer, or even just a gamer; Dev Night will have something to offer.'
