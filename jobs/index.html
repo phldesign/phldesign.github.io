@@ -9,44 +9,56 @@ fulltitle: "PHL Design"
 <div class="wrapper">
 	<div class="row">
 		<div class="small-12 columns">
-		{% assign jobPost = site.data.jobs | sort: 'date' %}
-		{% for job in site.data.jobs %}
-  			{% capture post_count %} {{ post_count | plus: 1 }} {% endcapture %}
-		{% endfor %}
-			<div class="clearfix">
-				<h2 class="page-subhead">All Jobs ({{post_count}})</h2>
+			{% assign jobPost = site.data.jobs | sort: 'date' %}
+			<div class="section-header">			
+				<h2 class="page-subhead">All Job Postings</h2>
 			</div>
 			{% for job in jobPost reversed %}
-			{% assign loopindex = forloop.index | modulo: 2 %}
+			{% assign loopindex = forloop.index | modulo: 3 %}
 			{% if loopindex == 1 %}
 			<div class="row">
-				<div class="medium-6 small-12 columns clearfixs">
+				<div class="large-4 small-12 columns">
 					<div class="content--block">
 						<h3 class="content--title">{{ job.position }}</h3>
-							{% if job.companyurl %}
-								<p class="content--company">Company: <a href="{{ job.companyurl }}" target="_blank">{{ job.company }}</a></p>
-							{% else %}
-	          					<p class="content--company">Company: {{ job.company }}</p>
-	          				{% endif %}
-	          				{% if job.reference %}
-	          					<p class="content--company">Point of Contact: <a href="/members#{{ job.reference }}">{{ job.reference }}</a></p>
-	          				{% endif %}
-						<a href="{{ job.joblink }}" target="_blank" ><button class="outline">Apply</button></a>
+						{% if job.companyurl %}
+						<p class="content--company"><a href="{{ job.companyurl }}" target="_blank">{{ job.company }}</a></p>
+						{% else %}
+						<p class="content--company">Company: {{ job.company }}</p>
+						{% endif %}
+						{% if job.reference %}
+						<p class="content--curator">via <a href="/members#{{ job.reference }}">{{ job.reference }}</a></p>
+						{% endif %}
+						<a href="{{ job.joblink }}" target="_blank" ><button>Apply</button></a>
+					</div>
+				</div>
+				{% elsif loopindex == 2 %}
+				<div class="large-4 small-12 columns">
+					<div class="content--block">
+						<h3 class="content--title">{{ job.position }}</h3>
+						{% if job.companyurl %}
+						<p class="content--company"><a href="{{ job.companyurl }}" target="_blank">{{ job.company }}</a></p>
+						{% else %}
+						<p class="content--company">Company: {{ job.company }}</p>
+						{% endif %}
+						{% if job.reference %}
+						<p class="content--curator">via <a href="/members#{{ job.reference }}">{{ job.reference }}</a></p>
+						{% endif %}
+						<a href="{{ job.joblink }}" target="_blank" ><button>Apply</button></a>
 					</div>
 				</div>
 				{% else %}
-				<div class="medium-6 small-12 columns clearfixs">
+				<div class="large-4 small-12 columns">
 					<div class="content--block">
 						<h3 class="content--title">{{ job.position }}</h3>
-							{% if job.companyurl %}
-								<p class="content--company">Company: <a href="{{ job.companyurl }}" target="_blank">{{ job.company }}</a></p>
-							{% else %}
-	          					<p class="content--company">Company: {{ job.company }}</p>
-	          				{% endif %}
-	          				{% if job.reference %}
-	          					<p class="content--company">Point of Contact: <a href="/members#{{ job.reference }}">{{ job.reference }}</a></p>
-	          				{% endif %}
-						<a href="{{ job.joblink }}" target="_blank" ><button class="outline">Apply</button></a>
+						{% if job.companyurl %}
+						<p class="content--company"><a href="{{ job.companyurl }}" target="_blank">{{ job.company }}</a></p>
+						{% else %}
+						<p class="content--company">Company: {{ job.company }}</p>
+						{% endif %}
+						{% if job.reference %}
+						<p class="content--curator">via <a href="/members#{{ job.reference }}">{{ job.reference }}</a></p>
+						{% endif %}
+						<a href="{{ job.joblink }}" target="_blank" ><button>Apply</button></a>
 					</div>
 				</div>
 			</div>
