@@ -49,3 +49,21 @@
         }
     }
 }
+
+@media only screen and (max-width: 40em) {
+    .top-nav {
+        padding: 1.5em 0 0;
+        .page-logo {
+            height: auto;
+            width: 60px;
+        }
+        .navigation {
+            display: inline-block;
+            padding-left: 0;
+            li {
+                margin-bottom: 10px;
+                display: inline-block;
+            }
+        }
+    }
+}
