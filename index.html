@@ -6,10 +6,19 @@ fulltitle: "PHL Design"
 <!-- fulltitle: This overrides the default page title, which is "{{page.tite}} | {{site.title}}" -->
 <!-- excerpt: If this isn't set, it'll pull your {{site.tagline}} for meta description-->
 
+<div class="intro-block">
+	<div class="row">
+		<div class="large-12 columns">
+			<h2>Welcome to the Philadelphia design community. A resource for designers and developers to stay connected, learn about upcoming events and find prospective career opportunities. Feel free to request an invite to our <a href="http://www.slack.phldesign.co" target="_blank">slack channel</a>, and contribute to the site through <a href="https://github.com/phldesign/phldesign.github.io" target="_blank">github</a>.</h2>
+		</div>
+	</div>
+</div>
+
 <div class="wrapper">
 	<div class="row">
-		<div class="large-6 medium-6 small-12 columns">
+		<div class="small-12 columns">
 			<h2 class="page-subhead">Upcoming Events</h2>
+			<a href="/events/" class="all-events-link">View All Events</a>
 
 			{% assign curDate = site.time | date: '%Y-%m-%d' %}
 			{% assign postStartDate = site.data.events.date | date: '%Y-%m-%d' %}
@@ -36,7 +45,7 @@ fulltitle: "PHL Design"
 			{% endfor %}
 			<a href="/events/"><button class="view--all">View All Events</button></a>
 		</div>
-		<div class="large-6 medium-6 small-12 columns">
+		<div class="small-12 columns">
 			<h2 class="page-subhead">Latest Jobs</h2>
 			{% assign jobPost = site.data.jobs | sort: 'date' | reverse %}
 			{% for job in jobPost limit:5 %}

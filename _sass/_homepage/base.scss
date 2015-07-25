@@ -1,3 +1,23 @@
+.intro-block {
+    @include intro-gradient;
+    padding: 6em 0;
+    h2 {
+        color: white;
+        font: {
+            size: 32px;
+        };
+        a {
+            color: white;
+            text-decoration: none;
+            border-bottom: 2px solid white;
+        }
+    }
+}
+
+.all-events-link {
+    float: right;
+}
+
 .page-subhead {
     font: {
         size: 21px;

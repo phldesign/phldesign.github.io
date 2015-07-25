@@ -15,3 +15,14 @@ $level-5: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 @mixin BoxShadowHelper($level) {
     box-shadow: $level;
 }
+
+@mixin intro-gradient {
+    background: rgba(225, 4, 52, 1);
+    background: -moz-linear-gradient(top, rgba(225, 4, 52, 1) 0%, rgba(240, 6, 80, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(225, 4, 52, 1)), color-stop(100%, rgba(240, 6, 80, 1)));
+    background: -webkit-linear-gradient(top, rgba(225, 4, 52, 1) 0%, rgba(240, 6, 80, 1) 100%);
+    background: -o-linear-gradient(top, rgba(225, 4, 52, 1) 0%, rgba(240, 6, 80, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(225, 4, 52, 1) 0%, rgba(240, 6, 80, 1) 100%);
+    background: linear-gradient(to bottom, rgba(225, 4, 52, 1) 0%, rgba(240, 6, 80, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e10434', endColorstr='#f00650', GradientType=0 );
+}
