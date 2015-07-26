@@ -41,8 +41,8 @@ fulltitle: "PHL Design"
 							<p class="content--description">{{ event.subheader }}</p>
 							{% endif %}
 						</div>
-						{% if event.button == true %}
-						<a href="{{ event.eventlink }}" target="_blank"><button>Attend</button></a>
+						{% if event.eventlink %}
+							<a href="{{ event.eventlink }}" target="_blank"><button>Attend</button></a>
 						{% endif %}
 					</div>
 				</div>

@@ -3,7 +3,6 @@
   time: 6pm - 10pm
   date: 2015-08-06
   location: Independence Beer Garden
-  button: true
   eventlink: http://nvite.com/DribbblePhillyMeetup/d44c
 
 - title: 99U Local - Philadelphia
@@ -11,7 +10,6 @@
   time: 7pm
   date: 2015-09-14
   location: The Mutter Museum
-  button: true
   eventlink: http://www.meetup.com/99U-Local-Philadelphia/events/222535504/
 
 - title: TBD with Roz Duffy
@@ -19,7 +17,6 @@
   time: 6:30pm - 8pm
   date: 2015-08-13
   location: Drexel University's URBN Annex Screening Room
-  button: true
   eventlink: http://refreshphilly.ticketleap.com/20150813/
 
 - title: TBD with Mike Gadsby
@@ -27,7 +24,6 @@
   time: 6:30pm - 8pm
   date: 2015-09-03
   location: Drexel University's URBN Annex Screening Room
-  button: true
   eventlink: http://refreshphilly.ticketleap.com/20150903/
 
 - title: TBD with Melissa Morris Ivone
@@ -35,7 +31,6 @@
   time: 6:30pm - 8pm
   date: 2015-10-08
   location: Drexel University's URBN Annex Screening Room
-  button: true
   eventlink: http://refreshphilly.ticketleap.com/20151008/
 
 - title: Forge Conference 2015
@@ -43,7 +38,6 @@
   time: 
   date: 2015-10-09
   location: University of Pennsylvania Museum of Archaeology & Anthropology
-  button: true
   eventlink: http://forgeconf.com/
 
 - title: Build Guild Philly
@@ -51,7 +45,6 @@
   time: 6pm
   date: 2015-07-29
   location: Khyber Pass Pub
-  button: true
   eventlink: http://www.meetup.com/Build-Guild-Philly/events/222715157/
 
 - title: Build Guild Philly
@@ -59,7 +52,6 @@
   time: 6pm
   date: 2015-08-26
   location: Khyber Pass Pub
-  button: true
   eventlink: http://www.meetup.com/Build-Guild-Philly/events/dtlghkytlbjc/
 
 - title: '@in - The Conference for In-House Creatives'
@@ -67,7 +59,6 @@
   time: 9am - 4pm
   date: 2015-08-15
   location: Franklin Square Headquarters at the Philadelphia Navy Yard 
-  button: true
   eventlink: https://www.eventbrite.com/e/in-the-conference-for-in-house-creatives-tickets-17467134670?ref=ebapi
   
 - title: 'Wine + Code: CSS Animations with Victor Lourng'
@@ -75,7 +66,6 @@
   time: 6:30pm
   date: 2015-07-27
   location: Indy Hall
-  button: true
   eventlink: http://www.meetup.com/Wine-Code/events/223787827/
 
 - title: 'Philly Dev Night'
@@ -83,7 +73,6 @@
   time: 7:00pm
   date: 2015-07-30
   location: Philly Game Forge, 239 Chestnut St.
-  button: true
   eventlink:
 
 - title: 'Philly Dev Night'
@@ -91,7 +80,6 @@
   time: 7:00pm
   date: 2015-08-06
   location: Philly Game Forge, 239 Chestnut St.
-  button: true
   eventlink:
 
 - title: 'Philly Dev Night'
@@ -99,7 +87,6 @@
   time: 7:00pm
   date: 2015-08-13
   location: Philly Game Forge, 239 Chestnut St.
-  button: true
   eventlink:
 
 - title: 'Philly Dev Night'
@@ -107,7 +94,6 @@
   time: 7:00pm
   date: 2015-08-20
   location: Philly Game Forge, 239 Chestnut St.
-  button: true
   eventlink:
 
 - title: 'Philly Dev Night'
@@ -115,7 +101,6 @@
   time: 7:00pm
   date: 2015-08-27
   location: Philly Game Forge, 239 Chestnut St.
-  button: true
   eventlink:
 
 - title: 'Philly Dev Night'
@@ -123,7 +108,6 @@
   time: 7:00pm
   date: 2015-09-03
   location: Philly Game Forge, 239 Chestnut St.
-  button: true
   eventlink:
 
 - title: 'Philly Dev Night'
@@ -131,7 +115,6 @@
   time: 7:00pm
   date: 2015-09-10
   location: Philly Game Forge, 239 Chestnut St.
-  button: true
   eventlink:
 
 - title: 'Philly Dev Night'
@@ -139,7 +122,6 @@
   time: 7:00pm
   date: 2015-09-17
   location: Philly Game Forge, 239 Chestnut St.
-  button: true
   eventlink:
 
 - title: 'Philly Dev Night'
@@ -147,5 +129,32 @@
   time: 7:00pm
   date: 2015-09-24
   location: Philly Game Forge, 239 Chestnut St.
-  button: true
   eventlink:
+
+- title: 'Creative Mornings Philadelphia'
+  subheader: 'Peter Heacock is a producer, director, and founder of the social video company Unpopular Now. Best known for his work on vine, he formed unPOP in 2014 to help brands make sharable content and to help connect them with influencers.'
+  time: 8:30am
+  date: 2015-07-31
+  location: 1218 Arch Street 
+  eventlink: http://creativemornings.com/talks/peter-heacock
+
+- title: 'Girl Develop It: Philadelphia'
+  subheader: 'Join Chief Academic Officer and Co-Founder of the New York Code + Design Academy, Zach Feldman, to learn the basics of Ruby, a dynamic programming language, and Sinatra, a back-end framework that is built in Ruby.'
+  time: 8:30am
+  date: 2015-08-03
+  location: 30 South 17th Street, 14th Floor
+  eventlink: http://www.meetup.com/Girl-Develop-It-Philadelphia/events/223742472/
+
+- title: Meteor Philadelphia - Learn and Hack
+  subheader: Got an idea for a keynote presentation or lightning talk? Just leave a tweet-sized description on the Hack Night of your choice and we'll help you get set up. We're looking for tutorials, walkthroughs, talks, discussion topics, and productions apps about or related to Meteor.
+  time: 6pm
+  date: 2015-08-05
+  location: TBD
+  eventlink: http://www.meetup.com/Meteor-Philadelphia/events/222742542/
+
+- title: Girl Develop It - Rise &amp; Shine
+  subheader: Join us for a South Philly summertime Rise &amp; Shine! We'll be meeting at Benna's West right off the Broad Street Line!
+  time: 7am
+  date: 2015-08-06
+  location: 1444 S Broad St
+  eventlink: http://www.meetup.com/Girl-Develop-It-Philadelphia/events/223897216/
