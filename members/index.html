@@ -22,10 +22,14 @@ fulltitle: "Members Directory"
 					<span class="anchor" id="{{ member.name }}"></span>
 					<div class="content--block">
 						<h3 class="content--title">{{ member.name }}</h3>
-						{% if member.companyurl %}
-						<p>{{ member.position}} @ <span class="content--company"><a href="{{ member.companyurl }}" target="_blank">{{ member.company }}</a></p></span>
+						{% if member.company %}
+							{% if member.companyurl %}
+								<p>{{ member.position}} @ <span class="content--company"><a href="{{ member.companyurl }}" target="_blank">{{ member.company }}</a></p></span>
+							{% else %}
+								<p>{{ member.position }} @ <span class="content--company">{{ member.company }}</p></span>
+							{% endif %}
 						{% else %}
-						<p>{{ member.position}} @ <span class="content--company">{{ member.company }}</p></span>
+							<p>{{ member.position }}</p>
 						{% endif %}
 						<ul class="social--links">
 							{% if member.twitter %}<li><a class="fa fa-twitter" href="http://www.twitter.com/{{ member.twitter }}" target="_blank"></a></li>{% endif %}
@@ -42,10 +46,14 @@ fulltitle: "Members Directory"
 					<span class="anchor" id="{{ member.name }}"></span>
 					<div class="content--block">
 						<h3 class="content--title">{{ member.name }}</h3>
-						{% if member.companyurl %}
-						<p>{{ member.position}} @ <span class="content--company"><a href="{{ member.companyurl }}" target="_blank">{{ member.company }}</a></p></span>
+						{% if member.company %}
+							{% if member.companyurl %}
+								<p>{{ member.position}} @ <span class="content--company"><a href="{{ member.companyurl }}" target="_blank">{{ member.company }}</a></p></span>
+							{% else %}
+								<p>{{ member.position }} @ <span class="content--company">{{ member.company }}</p></span>
+							{% endif %}
 						{% else %}
-						<p>{{ member.position}} @ <span class="content--company">{{ member.company }}</p></span>					
+							<p>{{ member.position }}</p>
 						{% endif %}
 						<ul class="social--links">
 							{% if member.twitter %}<li><a class="fa fa-twitter" href="http://www.twitter.com/{{ member.twitter }}" target="_blank"></a></li>{% endif %}
@@ -62,10 +70,14 @@ fulltitle: "Members Directory"
 					<span class="anchor" id="{{ member.name }}"></span>
 					<div class="content--block">
 						<h3 class="content--title">{{ member.name }}</h3>
-						{% if member.companyurl %}
-						<p>{{ member.position}} @ <span class="content--company"><a href="{{ member.companyurl }}" target="_blank">{{ member.company }}</a></p></span>
+						{% if member.company %}
+							{% if member.companyurl %}
+								<p>{{ member.position}} @ <span class="content--company"><a href="{{ member.companyurl }}" target="_blank">{{ member.company }}</a></p></span>
+							{% else %}
+								<p>{{ member.position }} @ <span class="content--company">{{ member.company }}</p></span>
+							{% endif %}
 						{% else %}
-						<p>{{ member.position}} @ <span class="content--company">{{ member.company }}</p></span>						
+							<p>{{ member.position }}</p>
 						{% endif %}
 						<ul class="social--links">
 							{% if member.twitter %}<li><a class="fa fa-twitter" href="http://www.twitter.com/{{ member.twitter }}" target="_blank"></a></li>{% endif %}
