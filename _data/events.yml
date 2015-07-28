@@ -151,3 +151,10 @@
   date: 2015-08-06
   location: 1444 S Broad St
   eventlink: http://www.meetup.com/Girl-Develop-It-Philadelphia/events/223897216/
+
+- title: CocoaLove
+  subheader: A conference about people, not tech. CocoaLove highlights the iOS/Mac community's passions, challenges, and triumphs.
+  time: 6pm
+  date: 2015-10-09
+  location:
+  eventlink: http://cocoalove.org/
