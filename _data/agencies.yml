@@ -145,5 +145,10 @@
 
 - company: '1 Trick Pony'
   address: '251 Bellevue Ave # 3, Hammonton, NJ 08037'
-  twitter: 1 Trick Pony
+  twitter: 1TrickPony
   website: http://1trickpony.com/
+
+- company: 'Night Kitchen Interactive'
+  address: '411 South 2nd Street, Suite 200, Philadelphia, PA 19147'
+  twitter: nightkitchen
+  website: http://www.whatscookin.com/
