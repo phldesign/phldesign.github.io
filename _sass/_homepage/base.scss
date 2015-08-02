@@ -195,8 +195,8 @@ ul.shots {
     }
     @media only screen and (max-width: 40em) {
         .shots--shot {
-            -webkit-flex-basis: 33.333%;
-            flex-basis: 33.333%;
+            -webkit-flex-basis: 50%;
+            flex-basis: 50%;
         }
     }
 }
