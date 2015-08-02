@@ -1,6 +1,7 @@
 .intro-block {
     @include intro-gradient;
     padding: 7em 0;
+    margin-bottom: 1em;
     h2 {
         color: white;
         font: {
@@ -22,6 +23,7 @@
 @media only screen and (max-width: 40em) {
     .intro-block {
         padding: 1.25em 0;
+        margin-bottom: 0;
         h2 {
             font-size: 18px;
             line-height: 1.6;
