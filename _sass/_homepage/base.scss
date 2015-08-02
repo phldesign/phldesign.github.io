@@ -184,13 +184,19 @@ ul.shots {
     .shots--shot {
         padding: 4px;
         list-style: none;
-        -webkit-flex-basis: 33.33%;
-        flex-basis: 33.33%;
+        -webkit-flex-basis: 25%;
+        flex-basis: 25%;
+    }
+    @media only screen and (min-width: 40.063em) and (max-width: 64em) {
+        .shots--shot {
+            -webkit-flex-basis: 33.333%;
+            flex-basis: 33.333%;
+        }
     }
     @media only screen and (max-width: 40em) {
         .shots--shot {
-            -webkit-flex-basis: 50%;
-            flex-basis: 50%;
+            -webkit-flex-basis: 33.333%;
+            flex-basis: 33.333%;
         }
     }
 }
