@@ -241,6 +241,9 @@ ul.shots {
         .shots--shot {
             -webkit-flex-basis: 50%;
             flex-basis: 50%;
+            .username--block {
+                display: none;
+            }
         }
     }
 }
