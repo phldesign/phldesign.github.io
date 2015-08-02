@@ -26,6 +26,7 @@ var html = [];
         html.push('<li class="shots--shot">');
         html.push('<a href="' + shot.html_url + '" target="_blank">');
         html.push('<img src="' + shot.images.normal + '">');
+        html.push('<div class="username--block"><p class="username">' + shot.title + '<br>' + "by " + shot.user.name + '</p></div>');
         html.push('</a></li>');
       });
 
