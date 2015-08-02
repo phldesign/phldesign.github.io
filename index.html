@@ -42,7 +42,7 @@ fulltitle: "PHL Design"
 							{% endif %}
 						</div>
 						{% if event.eventlink %}
-							<a href="{{ event.eventlink }}" target="_blank"><button>Attend</button></a>
+						<a href="{{ event.eventlink }}" target="_blank"><button>Attend</button></a>
 						{% endif %}
 					</div>
 				</div>
@@ -68,12 +68,20 @@ fulltitle: "PHL Design"
 						{% if job.reference %}
 						<p class="content--curator">via <a href="/members#{{ job.reference }}">{{ job.reference }}</a></p>
 						{% endif %}
-											<a href="{{ job.joblink }}" target="_blank" ><button>Apply</button></a>
-
+						<a href="{{ job.joblink }}" target="_blank" ><button>Apply</button></a>
 					</div>
 				</div>
 				{% endfor %}
 			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="small-12 columns">
+		<div class="section-header">
+				<h2 class="page-subhead">Latest PHLDesign Dribbble Shots</h2>
+			</div>
+			<ul class="shots">
+			</ul>
 		</div>
 	</div>
 </div>

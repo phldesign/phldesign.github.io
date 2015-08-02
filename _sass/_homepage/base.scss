@@ -172,3 +172,25 @@
     position: relative;
     visibility: hidden;
 }
+
+ul.shots {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+    .shots--shot {
+        padding: 8px;
+        list-style: none;
+        -webkit-flex-basis: 33.33%;
+        flex-basis: 33.33%;
+    }
+    @media only screen and (max-width: 40em) {
+        .shots--shot {
+            -webkit-flex-basis: 50%;
+            flex-basis: 50%;
+        }
+    }
+}

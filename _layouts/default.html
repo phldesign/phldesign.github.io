@@ -9,6 +9,30 @@
 {% include head.html %}
 
 <body>
+	<script src="/js/jquery-2.1.4.min.js"></script>
+	<script src="/js/jribbble.min.js"></script>
+	<script>
+		$.jribbble.setToken('67ab4159622022344cbeca9d5144287ccc4636ebd09bef794a1cfab3de1bf4ff');
+    	/*
+      Jribbble methods make ajax requests to the Dribbble API. When
+      the requests complete, a Promise is returned. Use `then` to take an action
+      on the response from the server.
+      */
+      $.jribbble.shots('creativedash').then(function(shots) {
+var html = [];
+
+      shots.forEach(function(shot) {
+        // See the Dribbble docs for all available shot properties.
+        html.push('<li class="shots--shot">');
+        html.push('<a href="' + shot.html_url + '">');
+        html.push('<img src="' + shot.images.normal + '">');
+        html.push('</a></li>');
+      });
+
+      $('.shots').html(html.join(''));
+
+      });
+  </script>
 		<!--[if lt IE 8]>
 		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 		<![endif]-->
@@ -18,22 +42,22 @@
 				<div class="large-12 columns">
 					<img src="/img/logo.png" class="page-logo" alt="">
 					<h1><a href="/" class="logo-type">PHL DESIGN</a></h1>
-						<ul class="navigation">
-							<li><a class="nav-link" href="/events">Events</a></li>
-							<li><a class="nav-link" href="/jobs">Jobs</a></li>
-							<li><a class="nav-link" href="/links-resources">Resources</a></li>
-							<li><a class="nav-link" href="/agencies">Directory</a></li>
-						</ul>
-					</div>
+					<ul class="navigation">
+						<li><a class="nav-link" href="/events">Events</a></li>
+						<li><a class="nav-link" href="/jobs">Jobs</a></li>
+						<li><a class="nav-link" href="/links-resources">Resources</a></li>
+						<li><a class="nav-link" href="/agencies">Directory</a></li>
+					</ul>
 				</div>
 			</div>
 		</div>
+	</div>
 
 
-		{{ content }}
-		
-	</body>
-	{% include footer.html %}
+	{{ content }}
 
-	</html>
+</body>
+{% include footer.html %}
+
+</html>
 
