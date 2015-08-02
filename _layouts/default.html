@@ -24,7 +24,7 @@ var html = [];
       shots.forEach(function(shot) {
         // See the Dribbble docs for all available shot properties.
         html.push('<li class="shots--shot">');
-        html.push('<a href="' + shot.html_url + '">');
+        html.push('<a href="' + shot.html_url + '" target="_blank">');
         html.push('<img src="' + shot.images.normal + '">');
         html.push('</a></li>');
       });
