@@ -1,10 +1,3 @@
-- title: Philadelphia Dribbble Meetup
-  subheader: '#DribbblePhillyMeetup'
-  time: 6pm - 10pm
-  date: 2015-08-06
-  location: Independence Beer Garden
-  eventlink: http://nvite.com/DribbblePhillyMeetup/d44c
-
 - title: 99U Local - Philadelphia
   subheader:
   time: 7pm
@@ -54,12 +47,6 @@
   location: Franklin Square Headquarters at the Philadelphia Navy Yard 
   eventlink: https://www.eventbrite.com/e/in-the-conference-for-in-house-creatives-tickets-17467134670?ref=ebapi
 
-- title: 'Philly Dev Night'
-  subheader: 'Dev Night is a once-a-week event geared towards anyone interested in playing or creating games. It doesn’t matter if you’re an aspiring game developer, artist, writer, or even just a gamer; Dev Night will have something to offer.'
-  time: 7:00pm
-  date: 2015-08-06
-  location: Philly Game Forge, 239 Chestnut St.
-  eventlink:
 
 - title: 'Philly Dev Night'
   subheader: 'Dev Night is a once-a-week event geared towards anyone interested in playing or creating games. It doesn’t matter if you’re an aspiring game developer, artist, writer, or even just a gamer; Dev Night will have something to offer.'
@@ -109,13 +96,6 @@
   date: 2015-09-24
   location: Philly Game Forge, 239 Chestnut St.
   eventlink:
-
-- title: Girl Develop It - Rise &amp; Shine
-  subheader: Join us for a South Philly summertime Rise &amp; Shine! We'll be meeting at Benna's West right off the Broad Street Line!
-  time: 7am
-  date: 2015-08-06
-  location: 1444 S Broad St
-  eventlink: http://www.meetup.com/Girl-Develop-It-Philadelphia/events/223897216/
 
 - title: CocoaLove
   subheader: A conference about people, not tech. CocoaLove highlights the iOS/Mac community's passions, challenges, and triumphs.
