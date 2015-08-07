@@ -138,3 +138,31 @@
   date: 2015-08-11
   location: 1315 Walnut St, Suite 1500
   eventlink: http://www.meetup.com/nodejs-philly/events/223387372/
+
+- title: Super Smash Brothers Event
+  subheader: This should be the start of a bi-weekly series for everyone in the smash community looking for spots to play at in tri-state.
+  time: 7pm
+  date: 2015-09-18
+  location: 908 North 3rd Street
+  eventlink: http://www.meetup.com/N3rd-Street-Gamers-Philadelphia-PA/events/223987360/
+
+- title: Super Smash Brothers Event
+  subheader: This should be the start of a bi-weekly series for everyone in the smash community looking for spots to play at in tri-state.
+  time: 7pm
+  date: 2015-09-18
+  location: 908 North 3rd Street
+  eventlink: http://www.meetup.com/N3rd-Street-Gamers-Philadelphia-PA/events/223987360/
+
+- title: Learn & Hack
+  subheader:
+  time: 6pm
+  date: 2015-10-07
+  location: Center City, Philadelphia
+  eventlink: http://www.meetup.com/Meteor-Philadelphia/events/223405580/
+
+- title: Build Guild Philly
+  subheader: Build Guild is a bunch of web folks that enjoy chatting over drinks. It happens the last Wednesday of every month.
+  time: 6pm
+  date: 2015-09-30
+  location: Khyber Pass - 56 S 2nd St, Philadelphia
+  eventlink: http://www.meetup.com/Build-Guild-Philly/events/dtlghkytmbnc/
