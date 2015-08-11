@@ -56,7 +56,7 @@ fulltitle: "PHL Design"
 			</div>
 			<div class="row">
 				{% assign jobPost = site.data.jobs | sort: 'date' | reverse %}
-				{% for job in jobPost limit:3 %}
+				{% for job in jobPost limit:6 %}
 				<div class="medium-4 small-12 columns">
 					<div class="content--block">
 						<h3 class="content--title">{{ job.position }}</h3>
