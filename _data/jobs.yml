@@ -85,12 +85,6 @@
   joblink: http://www.rtop.com/jobs/12
 
 - date: 2015-06-27
-  position: Senior Interactive Designer
-  company: BlueCadet
-  companyurl: http://bluecadet.com
-  joblink: http://bluecadet.com/contact/careers/
-
-- date: 2015-06-27
   position: Senior UX Designer
   company: Electronic Ink
   companyurl: http://www.electronicink.com/
@@ -129,4 +123,25 @@
   company: Think Brownstone
   companyurl: https://www.thinkbrownstone.com/
   joblink: http://technical.ly/job/senior-web-developer-4/
+  reference: 
+
+- date: 2015-08-11
+  position: Designer
+  company: BlueCadet
+  companyurl: http://bluecadet.com/
+  joblink: http://bluecadet.com/careers/designer/
+  reference: 
+
+- date: 2015-08-11
+  position: Senior Interactive Designer
+  company: BlueCadet
+  companyurl: http://bluecadet.com/
+  joblink: http://bluecadet.com/careers/senior-interactive-designer/
+  reference: 
+
+- date: 2015-08-11
+  position: Creative Developer
+  company: BlueCadet
+  companyurl: http://bluecadet.com/
+  joblink: http://bluecadet.com/careers/creative-developer/
   reference: 
