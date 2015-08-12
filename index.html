@@ -26,7 +26,7 @@ fulltitle: "PHL Design"
 				{% assign postStartDate = site.data.events.date | date: '%Y-%m-%d' %}
 				{% assign eventPost = site.data.events  where postStartDate >= curDate | sort: 'date'  %}
 				{% for event in eventPost limit: 3 %}
-				<div class="medium-4 small-12 columns">
+				<div class="medium-4 small-12 end columns">
 					<div class="content--block">
 						<div class="event--info">
 							<p class="content--date">{{ event.date | date: '%B %-d, %Y' }}</p>
