@@ -104,13 +104,6 @@
   location:
   eventlink: http://cocoalove.org/
 
-- title: Philly Super Meetup
-  subheader: The Super Meetup is a gathering of the most-connected members of the local tech, startup, and entrepreneurial scene. It’s a chance to make new friends and learn more about local tech and entrepreneurial resources and tech-focused meetup groups.
-  time: 5pm
-  date: 2015-08-12
-  location: 2nd and Lombard Streets
-  eventlink: http://www.meetup.com/Technically-Philly/events/223444289/
-
 - title: Shame an Experience
   subheader: How many times have you used an app and thought, "wow, this experience totally sucks!". Well, now's your chance to get revenge!
   time: 5:30pm
@@ -131,13 +124,6 @@
   date: 2015-08-18
   location: 1211 Chestnut Street, Suite 400
   eventlink: http://www.meetup.com/Girl-Develop-It-Philadelphia/events/224436821/
-
-- title: Node.js Show and Tell! 
-  subheader: This is the second-Tuesday Philly node.js meetup group!  We start things out informally and anyone that has something to share shows off what they've been doing with node.js.
-  time: 6:30pm
-  date: 2015-08-11
-  location: 1315 Walnut St, Suite 1500
-  eventlink: http://www.meetup.com/nodejs-philly/events/223387372/
 
 - title: Super Smash Brothers Event
   subheader: This should be the start of a bi-weekly series for everyone in the smash community looking for spots to play at in tri-state.
