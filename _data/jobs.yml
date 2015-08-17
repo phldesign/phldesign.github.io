@@ -152,3 +152,18 @@
   companyurl: http://intuitivecompany.com
   joblink: http://intuitivecompany.com/blog/blog_post/careers
   reference: Brandon Sax
+
+- date: 2015-08-17
+  position: SeniorFront-End Dev
+  company: Sidecar
+  companyurl: https://hello.getsidecar.com/
+  joblink: https://hello.getsidecar.com/frontend-engineer/
+  reference:
+
+- date: 2015-08-17
+  position: Senior Product Engineer
+  company: Sidecar
+  companyurl: https://hello.getsidecar.com/
+  joblink: https://hello.getsidecar.com/sr-product-engineer/
+  reference:
+
