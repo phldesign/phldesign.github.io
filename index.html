@@ -55,20 +55,17 @@ fulltitle: "PHL Design"
 				<a href="/jobs/" class="all-events-link">View all job posts »</a>
 			</div>
 			<div class="row">
-				{% assign jobPost = site.data.jobs | sort: 'date' | reverse %}
-				{% for job in jobPost limit: 3 %}
-				<div class="medium-4 small-12 end columns">
+				{% for post in site.categories['jobs'] limit:3 %}
+				<div class="large-4 small-12 columns end">
 					<div class="content--block">
-						<h3 class="content--title">{{ job.position }}</h3>
-						{% if job.companyurl %}
-						<p class="content--company"><a href="{{ job.companyurl }}" target="_blank">{{ job.company }}</a></p>
+						<h3 class="content--title">{{ post.position }}</h3>
+						{% if post.companyurl %}
+						<p class="content--company"><a href="{{ post.companyurl }}" target="_blank">{{ post.company }}</a></p>
 						{% else %}
-						<p class="content--company">Company: {{ job.company }}</p>
+						<p class="content--company">Company: {{ post.company }}</p>
 						{% endif %}
-						{% if job.reference %}
-						<p class="content--curator">via <a href="/members#{{ job.reference }}">{{ job.reference }}</a></p>
-						{% endif %}
-						<a href="{{ job.joblink }}" target="_blank" ><button>Apply</button></a>
+						{{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+						<a href="{{ post.url }}"><button>More Info</button></a>
 					</div>
 				</div>
 				{% endfor %}
