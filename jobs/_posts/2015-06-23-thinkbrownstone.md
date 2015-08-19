@@ -7,7 +7,7 @@ companyurl: https://www.thinkbrownstone.com
 joblink: http://tbi.theresumator.com/apply/8hevLW/Design-Lead.html
 reference:
 categories: jobs
-permalink: /:categories/thinkbrownstone/design-lead
+permalink: /jobs/thinkbrownstone/design-lead
 ---
 
 **Recruiters and staffing companies NEED NOT contact us and DO NOT have permission to contact candidates on our behalf.**

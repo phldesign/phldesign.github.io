@@ -7,7 +7,7 @@ companyurl: http://xmog.com/
 joblink: http://xmog.com/jobs
 reference:
 categories: jobs
-permalink: /:categories/transmogrify/fe-developer
+permalink: /jobs/transmogrify/fe-developer
 ---
 
 Interested in designing and building a variety of web and mobile applications? Transmogrify is always on the lookout for detail oriented front-end developers, with exceptional HTML, CSS, and interactive JavaScript programming skills.

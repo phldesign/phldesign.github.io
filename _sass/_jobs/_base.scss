@@ -9,6 +9,15 @@
     letter-spacing: 0;
 }
 
+@media only screen and (max-width: 40em) {
+    .job--position {
+        font: {
+            size: 30px;
+        };
+        line-height: 1.2;
+    }
+}
+
 .job--company {
     margin: .25em 0;
     font: {
@@ -21,6 +30,14 @@
         &:hover {
             color: $accent-dark;
         }
+    }
+}
+
+@media only screen and (max-width: 40em) {
+    .job--company {
+        font: {
+            size: 18px;
+        };
     }
 }
 

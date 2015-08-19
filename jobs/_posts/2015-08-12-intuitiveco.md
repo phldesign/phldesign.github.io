@@ -7,7 +7,7 @@ companyurl: http://intuitivecompany.com
 joblink: http://intuitivecompany.com/blog/blog_post/careers
 reference: Brandon Sax
 categories: jobs
-permalink: /:categories/intuitiveco/user-experience-researcher
+permalink: /jobs/intuitiveco/user-experience-researcher
 ---
 
 Intuitive Company is looking for passionate, results-oriented researcher, who is a great problem solver with deep experience in usability, human computer interaction, information architecture and client/project management.

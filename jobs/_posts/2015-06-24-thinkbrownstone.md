@@ -7,7 +7,7 @@ companyurl: https://www.thinkbrownstone.com
 joblink: http://tbi.theresumator.com/apply/QdtamG/Senior-Web-Developer.html
 reference:
 categories: jobs
-permalink: /:categories/thinkbrownstone/senior-web-developer
+permalink: /jobs/thinkbrownstone/senior-web-developer
 ---
 
 **Recruiters and staffing companies NEED NOT contact us and DO NOT have permission to contact candidates on our behalf.**

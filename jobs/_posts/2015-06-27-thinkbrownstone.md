@@ -7,7 +7,7 @@ companyurl: https://www.thinkbrownstone.com
 joblink: http://tbi.theresumator.com/apply/Kvp1wT/Development-Lead.html
 reference:
 categories: jobs
-permalink: /:categories/thinkbrownstone/development-lead
+permalink: /jobs/thinkbrownstone/development-lead
 ---
 
 **Recruiters and staffing companies NEED NOT contact us and DO NOT have permission to contact candidates on our behalf.**

@@ -7,7 +7,7 @@ companyurl: http://www.whatscookin.com/
 joblink: http://www.whatscookin.com/#C%7C1106%7C1136
 reference: 
 categories: jobs
-permalink: /:categories/night-kitchen-interactive/interactive-web-developer
+permalink: /jobs/night-kitchen-interactive/interactive-web-developer
 ---
 
 Night Kitchen Interactive is looking for a fulltime Interactive/Web Developer. This is an opportunity to become a key member of a diverse team of experienced, dedicated interactive professionals.<!--more--> Our core focus and our passion is the creation of innovative websites and interactive installations for our clients, primarily museums and arts and cultural heritage organizations. As a nationally-recognized leader in the museum community, Night Kitchen's clients include the Smithsonian Institution, the Mütter Museum and the Philadelphia Museum of Art. For these and others, we are currently developing apps, websites, and interactive installations.

@@ -7,7 +7,7 @@ companyurl: http://bluecadet.com/
 joblink: http://bluecadet.com/careers/designer/
 reference: 
 categories: jobs
-permalink: /:categories/bluecadet/designer
+permalink: /jobs/bluecadet/designer
 ---
 
 Bluecadet is seeking a designer to join our collaborative, multi-disciplinary team. You’ll have the chance to work on a range of projects (like interactive installations, animation, apps, websites) for great clients (e.g. the National Air and Space Museum, the National Baseball Hall of Fame, the Art Institute of Chicago). What we are looking for:

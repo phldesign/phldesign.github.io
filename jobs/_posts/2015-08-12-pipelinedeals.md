@@ -7,7 +7,7 @@ companyurl: https://www.pipelinedeals.com/
 joblink: http://technical.ly/job/sr-product-manager/
 reference: Jody Ferry
 categories: jobs
-permalink: /:categories/pipelinedeals/sr-product-manager
+permalink: /jobs/pipelinedeals/sr-product-manager
 ---
 
 Over the last 9 years, the team at PipelineDeals has been lovingly crafting its software, making incremental progress towards its goal of making CRM software sales people actually use. Now we are going to make more dramatic improvements saving our customers time, and helping them sell more efficiently.

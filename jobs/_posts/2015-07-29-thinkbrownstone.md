@@ -7,7 +7,7 @@ companyurl: https://www.thinkbrownstone.com/
 joblink: http://technical.ly/job/senior-web-developer-4/
 reference: 
 categories: jobs
-permalink: /:categories/thinkbrownstone/senior-web-developer
+permalink: /jobs/thinkbrownstone/senior-web-developer
 ---
 **Recruiters and staffing companies NEED NOT contact us and DO NOT have permission to contact candidates on our behalf.**
 

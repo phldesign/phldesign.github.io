@@ -7,7 +7,7 @@ companyurl: https://intuitivecompany.com/
 joblink: http://intuitivecompany.com/blog/blog_post/careers
 reference: Brandon Sax
 categories: jobs
-permalink: /:categories/intuitiveco/senior-interaction-designer
+permalink: /jobs/intuitiveco/senior-interaction-designer
 ---
 <!--more-->
 

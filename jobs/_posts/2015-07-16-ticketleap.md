@@ -7,7 +7,7 @@ joblink: http://ticketleap.theresumator.com/apply/IJ9KNH/Software-Developer
 reference: Alexander Kipphut
 date: 2015-07-16
 categories: jobs
-permalink: /:categories/ticketleap/software-developer
+permalink: /jobs/ticketleap/software-developer
 ---
 
 We’re a team of 26 people with high aiming goals centered around a belief that experiences, not things, are what make life great. We’re working on online ticketing that just works, and a tool for teams to track and share their in person moments.<!--more--> We’re profitable, growing, and are fueled by a culture that balances pride in what we’ve accomplished with a restlessness that we haven’t come close to fulfilling our potential.

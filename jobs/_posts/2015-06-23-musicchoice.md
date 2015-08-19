@@ -7,7 +7,7 @@ joblink: https://musicchoice.applicantpro.com/jobs/239061.html
 reference: Ariel Braverman
 date: 2015-06-23
 categories: jobs
-permalink: /:categories/musicchoice/jrinteraction
+permalink: /jobs/musicchoice/jrinteraction
 ---
 
 Responsible for UI/UX design support contributing toward the development and maintenance of MC's mobile, television and website applications and internal operational interfaces.<!--more-->

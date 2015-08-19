@@ -7,7 +7,7 @@ companyurl: http://www.whatscookin.com/
 joblink: http://www.whatscookin.com/#C%7C1106%7C1141
 reference: 
 categories: jobs
-permalink: /:categories/night-kitchen-interactive/creative-lead
+permalink: /jobs/night-kitchen-interactive/creative-lead
 ---
 
 Night Kitchen Interactive is looking for an experienced, enthusiastic Creative Lead to join our growing team as a full time employee.<!--more--> As Creative Lead, you will direct multiple projects and encourage creativity and collaboration across disciplines. You will oversee visual design, lead the design team and raise our design aesthetic. You must present an outstanding portfolio and have successfully progressed from designer to creative leader.
