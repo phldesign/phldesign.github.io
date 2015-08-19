@@ -160,7 +160,13 @@
             size: 14px;
         };
     }
+    a {
+        &:hover {
+            text-decoration: none;
+        }
+    }
     button {
+        display: block;
         margin: 20px 0 0;
     }
     strong {

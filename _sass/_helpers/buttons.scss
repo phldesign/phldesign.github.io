@@ -12,6 +12,7 @@ button {
     letter-spacing: .15em;
     &:hover {
         background-color: $tertiary;
+        text-decoration: none;
     }
 }
 
