@@ -10,50 +10,11 @@
 
 <body>
 	<script src="/js/jquery-2.1.4.min.js"></script>
-	<script src="/js/jribbble.min.js"></script>
-	<script>
-		$.jribbble.setToken('67ab4159622022344cbeca9d5144287ccc4636ebd09bef794a1cfab3de1bf4ff');
-    	/*
-      Jribbble methods make ajax requests to the Dribbble API. When
-      the requests complete, a Promise is returned. Use `then` to take an action
-      on the response from the server.
-      */
-      $.jribbble.buckets('301727-PHLDesign/shots').then(function(shots) {
-      	var html = [];
-
-      	shots.forEach(function(shot) {
-        // See the Dribbble docs for all available shot properties.
-        html.push('<li class="shots--shot">');
-        html.push('<a href="' + shot.html_url + '" target="_blank">');
-        html.push('<img src="' + shot.images.normal + '">');
-        html.push('<div class="username--block"><p class="username">' + shot.title + '<br>' + "by " + shot.user.name + '</p></div>');
-        html.push('</a></li>');
-    });
-
-      	$('.shots').html(html.join(''));
-
-      });
-  </script>
 		<!--[if lt IE 8]>
 		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 		<![endif]-->
 
-		<div id="header" class="top-nav">
-			<div class="row">
-				<div class="large-12 columns">
-					<img src="/img/logo.png" class="page-logo" alt="">
-					<h1><a href="/" class="logo-type">PHL DESIGN</a></h1>
-					<ul class="navigation">
-						<li><a class="nav-link" href="/events">Events</a></li>
-						<li><a class="nav-link" href="/jobs">Jobs</a></li>
-						<li><a class="nav-link" href="/links-resources">Resources</a></li>
-						<li><a class="nav-link" href="/agencies">Directory</a></li>
-						<li><a class="nav-link" href="http://www.twitter.com/phldesignco" target="_blank"><i class="fa fa-twitter"></i></a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
+	{% include nav.html %}
 
 	<div class="row">
 		<div class="small-12 large-10 large-offset-1 end columns content--block job--page">
