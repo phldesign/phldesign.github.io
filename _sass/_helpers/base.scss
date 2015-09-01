@@ -9,7 +9,7 @@ body {
 a {
     @include transition(all, 250ms, ease-in-out);
     color: $accent;
-    text-decoration: underline;
+    text-decoration: none;
     &:visited {
         color: lighten($accent, 30%);
     }

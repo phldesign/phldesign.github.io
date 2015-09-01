@@ -17,13 +17,13 @@
 	{% include nav.html %}
 
 	<div class="row">
-		<div class="small-12 large-10 large-offset-1 end columns content--block job--page">
-			<h1 class="job--position">{{ page.position }}</h1>
+		<div class="small-12 large-8 large-offset-2 end columns content--block job--page">
 			{% if page.companyurl %}
 			<p class="job--company"><a href="{{ page.companyurl }}" target="_blank">{{ page.company }}</a></p>
 			{% else %}
 			<p class="job--company">Company: {{ page.company }}</p>
 			{% endif %}
+			<h1 class="job--position">{{ page.position }}</h1>
 			{% if page.reference %}
 			<p class="job--curator">via <a href="/members#{{ page.reference }}">{{page.reference}}</a></p>
 			{% else %}

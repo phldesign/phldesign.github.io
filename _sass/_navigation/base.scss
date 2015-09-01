@@ -1,12 +1,12 @@
 #header {
-    background-color: $accent;
+    background-color: $white;
     position: relative;
 }
 
 .top-nav {
     padding: 1.5em 0;
     a {
-        color: $white;
+        color: $primary;
         text-decoration: none;
     }
     .page-logo {
@@ -29,22 +29,22 @@
         display: inline;
         li {
             display: inline;
-            color: $white;
             padding-right: 2em;
             &:last-child {
                 padding-right: 0;
             }
         }
         .nav-link {
-            color: $white;
+            color: $grey-dark;
             font: {
                 size: 14px;
                 weight: 500;
             };
             text-transform: uppercase;
             &:hover {
+                color: $primary;
                 padding-bottom: 3px;
-                border-bottom: 2px solid white;
+                border-bottom: 2px solid $primary;
             }
         }
     }
