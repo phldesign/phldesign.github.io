@@ -172,3 +172,17 @@
   date: 2015-09-15
   location: '1211 Chestnut Street Suite 400, Philadelphia, PA'
   eventlink: http://www.meetup.com/Girl-Develop-It-Philadelphia/events/225028552/
+
+- title: 'Meteor Global Hackathon'
+  subheader: 'Save the date for the weekend of October 10th and 11th. This year the Meteor Development Groups is holding a global hackathon -- bringing the whole community together to build open-source projects and show everyone what you can accomplish with Meteor in 24 hrs. There will be cool prizes and categories to spur on creativity.  '
+  time: 12pm
+  date: 2015-10-10
+  location: 'TBD'
+  eventlink: http://www.meetup.com/Meteor-Philadelphia/events/223405580/
+
+- title: 'Start.Stay.Grow. Summit'
+  subheader: 'Your future starts now. Come learn and connect at an event organized by Philadelphia's technology and startup community for you.'
+  time: 5pm
+  date: 2015-10-21
+  location: '225 Chestnut St., Philadelphia, PA'
+  eventlink: http://www.meetup.com/Technically-Philly/events/225064996/
