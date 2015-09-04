@@ -137,3 +137,38 @@
   date: 2015-09-16
   location: 2955 Market St
   eventlink: http://www.meetup.com/Girl-Develop-It-Philadelphia/events/224607226/
+
+- title: 'Node.js show and tell! Bring some code to share!'
+  subheader: This is the second-Tuesday Philly node.js meetup group!  We start things out informally and anyone that has something to share shows off what they've been doing with node.js. 
+  time: 6:30pm
+  date: 2015-09-08
+  location: 1315 Walnut St, Suite 1500, Philadelphia, PA
+  eventlink: http://www.meetup.com/nodejs-philly/events/224306498/
+
+- title: 'Code for Philly + DuckDuckGo Mashup'
+  subheader: 'Join us at our weekly workshop to learn about technology, sharpen your skills, and help Philly at the same time! There are ample opportunities for people with any skill set and experience level to have an impact.'
+  time: 6pm
+  date: 2015-09-10
+  location: 1401 John F Kennedy Boulevard, 16th Floor, Philadelphia, PA
+  eventlink: http://www.meetup.com/QuackHack/events/224957471/
+
+- title: 'Transitioning to Web and Interaction Base Design'
+  subheader: 'Join us for a free lecture from James Pannafino! Interaction design has many dimensions to it. It addresses how people deal with words, read images, explore physical space, think about time and motion, and how actions and responses affect human behavior.'
+  time: 6:30pm
+  date: 2015-09-10
+  location: 2401 Walnut St., Suite 102, Philadelphia, PA
+  eventlink: http://www.meetup.com/Girl-Develop-It-Philadelphia/events/224449874/
+
+- title: 'Solo Exhibition By Jessica Barber'
+  subheader: 'Come support our members in art. Jessica Barber will be showcasing her Solo Exhibit in September. Come out to enjoy art in her view.'
+  time: 6pm
+  date: 2015-09-11
+  location: '236 South 22nd Street, Philadelphia, PA'
+  eventlink: http://www.meetup.com/Graphic-Designers-MaryamsMark/events/224062128/
+
+- title: 'Intro to Web Concepts'
+  subheader: 'If you are a complete beginner to coding and/or want to learn how to communicate better with your technical team/friends, this workshop is for you.'
+  time: 6:30pm
+  date: 2015-09-15
+  location: '1211 Chestnut Street Suite 400, Philadelphia, PA'
+  eventlink: http://www.meetup.com/Girl-Develop-It-Philadelphia/events/225028552/
