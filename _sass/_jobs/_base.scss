@@ -59,7 +59,16 @@
         color: $grey-dark;
         @include transition(all, 250ms, ease-in-out);
         &:hover {
-            color: white;
+            a {
+                color: white;
+            }
+        }
+        a {
+            color: $grey-dark;
+            @include transition(all, 250ms, ease-in-out);
+            &:hover {
+                color: white;
+            }
         }
     }
     h3 {
