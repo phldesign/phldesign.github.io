@@ -29,13 +29,6 @@
 - title: 'Philly Dev Night'
   subheader: 'Dev Night is a once-a-week event geared towards anyone interested in playing or creating games. It doesn’t matter if you’re an aspiring game developer, artist, writer, or even just a gamer; Dev Night will have something to offer.'
   time: 7:00pm
-  date: 2015-09-10
-  location: Philly Game Forge, 239 Chestnut St.
-  eventlink:
-
-- title: 'Philly Dev Night'
-  subheader: 'Dev Night is a once-a-week event geared towards anyone interested in playing or creating games. It doesn’t matter if you’re an aspiring game developer, artist, writer, or even just a gamer; Dev Night will have something to offer.'
-  time: 7:00pm
   date: 2015-09-17
   location: Philly Game Forge, 239 Chestnut St.
   eventlink:
@@ -130,20 +123,6 @@
   date: 2015-09-16
   location: 2955 Market St
   eventlink: http://www.meetup.com/Girl-Develop-It-Philadelphia/events/224607226/
-
-- title: 'Code for Philly + DuckDuckGo Mashup'
-  subheader: 'Join us at our weekly workshop to learn about technology, sharpen your skills, and help Philly at the same time! There are ample opportunities for people with any skill set and experience level to have an impact.'
-  time: 6pm
-  date: 2015-09-10
-  location: 1401 John F Kennedy Boulevard, 16th Floor, Philadelphia, PA
-  eventlink: http://www.meetup.com/QuackHack/events/224957471/
-
-- title: 'Transitioning to Web and Interaction Base Design'
-  subheader: 'Join us for a free lecture from James Pannafino! Interaction design has many dimensions to it. It addresses how people deal with words, read images, explore physical space, think about time and motion, and how actions and responses affect human behavior.'
-  time: 6:30pm
-  date: 2015-09-10
-  location: 2401 Walnut St., Suite 102, Philadelphia, PA
-  eventlink: http://www.meetup.com/Girl-Develop-It-Philadelphia/events/224449874/
 
 - title: 'Solo Exhibition By Jessica Barber'
   subheader: 'Come support our members in art. Jessica Barber will be showcasing her Solo Exhibit in September. Come out to enjoy art in her view.'
