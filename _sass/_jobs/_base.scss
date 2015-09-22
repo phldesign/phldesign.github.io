@@ -55,7 +55,7 @@
     }
     button {
         margin: 3em 0 0;
-        padding: 1.25em 3.5em;
+        padding: 1.25em 0em;
         color: $grey-dark;
         @include transition(all, 250ms, ease-in-out);
         &:hover {
@@ -64,6 +64,7 @@
             }
         }
         a {
+            padding: 2em 3em;
             color: $grey-dark;
             @include transition(all, 250ms, ease-in-out);
             &:hover {
