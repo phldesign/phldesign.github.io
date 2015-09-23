@@ -52,10 +52,15 @@
         &:hover {
             color: $accent-dark;
         }
+        button {
+            &:hover {
+                color: white;
+            }
+        }
     }
     button {
         margin: 3em 0 0;
-        padding: 1.25em 0em;
+        padding: 1.25em 3em;
         color: $grey-dark;
         @include transition(all, 250ms, ease-in-out);
         &:hover {
