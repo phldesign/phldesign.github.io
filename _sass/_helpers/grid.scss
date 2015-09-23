@@ -118,7 +118,8 @@ img {
     float: right !important;
 }
 
-.clearfix:before, .clearfix:after {
+.clearfix:before, .clearfix:after,
+*.clearfix:before, *.clearfix:after {
     content: " ";
     display: table;
 }

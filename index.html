@@ -49,21 +49,22 @@ fulltitle: "PHL Design"
 				{% endfor %}
 			</div>
 		</div>
-		<div class="small-12 columns content-section">
-			<div class="section-header">
-				<h2 class="page-subhead">Latest Jobs</h2>
-				<a href="/jobs/" class="all-events-link">View all job posts »</a>
-			</div>
-			<div class="row">
-				{% for post in site.categories['jobs'] limit:3 %}
-				<div class="large-4 small-12 columns end">
-					<div class="content--block">
-						<p class="content--company">{{ post.company }}</p>
-						<a href="{{ post.url }}"><h3 class="content--title">{{ post.position }}</h3>
-						<button>More Info</button></a>
-					</div>
+		<div class="row">
+			<div class="small-12 columns content-section">
+				<div class="section-header">
+					<h2 class="page-subhead">Latest Jobs</h2>
+					<a href="/jobs/" class="all-events-link">View all job posts »</a>
 				</div>
-				{% endfor %}
+				<div class="row">
+					{% for post in site.categories['jobs'] limit:3 %}
+					<div class="large-4 small-12 columns end">
+						<div class="content--block">
+							<p class="content--company">{{ post.company }}</p>
+							<a href="{{ post.url }}"><h3 class="content--title">{{ post.position }}</h3><button>More Info</button></a>
+						</div>
+					</div>
+					{% endfor %}
+				</div>
 			</div>
 		</div>
 	</div>
@@ -76,9 +77,4 @@ fulltitle: "PHL Design"
 			</ul>
 		</div>
 	</div>
-	<!-- <div class="row">
-		<div class="small-12 columns">
-			<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/3739552/height/400/width/385/theme/standard/direction/no/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/" height="400" width="385" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-		</div>
-	</div> -->
 </div>
