@@ -15,13 +15,6 @@
 - title: 'Philly Dev Night'
   subheader: 'Dev Night is a once-a-week event geared towards anyone interested in playing or creating games. It doesn’t matter if you’re an aspiring game developer, artist, writer, or even just a gamer; Dev Night will have something to offer.'
   time: 7:00pm
-  date: 2015-10-01
-  location: Philly Game Forge, 239 Chestnut St.
-  eventlink:
-
-- title: 'Philly Dev Night'
-  subheader: 'Dev Night is a once-a-week event geared towards anyone interested in playing or creating games. It doesn’t matter if you’re an aspiring game developer, artist, writer, or even just a gamer; Dev Night will have something to offer.'
-  time: 7:00pm
   date: 2015-10-08
   location: Philly Game Forge, 239 Chestnut St.
   eventlink:
@@ -67,13 +60,6 @@
   date: 2015-10-07
   location: Center City, Philadelphia
   eventlink: http://www.meetup.com/Meteor-Philadelphia/events/223405580/
-
-- title: Build Guild Philly
-  subheader: Build Guild is a bunch of web folks that enjoy chatting over drinks. It happens the last Wednesday of every month.
-  time: 6pm
-  date: 2015-09-30
-  location: Khyber Pass - 56 S 2nd St, Philadelphia
-  eventlink: http://www.meetup.com/Build-Guild-Philly/events/dtlghkytmbnc/
 
 - title: 'Meteor Global Hackathon'
   subheader: 'Save the date for the weekend of October 10th and 11th. This year the Meteor Development Groups is holding a global hackathon -- bringing the whole community together to build open-source projects and show everyone what you can accomplish with Meteor in 24 hrs. There will be cool prizes and categories to spur on creativity.'
