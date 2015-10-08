@@ -54,12 +54,6 @@
   location:
   eventlink: http://cocoalove.org/
 
-- title: Learn & Hack
-  subheader:
-  time: 6pm
-  date: 2015-10-07
-  location: Center City, Philadelphia
-  eventlink: http://www.meetup.com/Meteor-Philadelphia/events/223405580/
 
 - title: 'Meteor Global Hackathon'
   subheader: 'Save the date for the weekend of October 10th and 11th. This year the Meteor Development Groups is holding a global hackathon -- bringing the whole community together to build open-source projects and show everyone what you can accomplish with Meteor in 24 hrs. There will be cool prizes and categories to spur on creativity.'
