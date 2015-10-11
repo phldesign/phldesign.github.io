@@ -1,24 +1,3 @@
-- title: TBD with Melissa Morris Ivone
-  subheader: By Refresh Philly
-  time: 6:30pm - 8pm
-  date: 2015-10-08
-  location: Drexel University's URBN Annex Screening Room
-  eventlink: http://refreshphilly.ticketleap.com/20151008/
-
-- title: Forge Conference 2015
-  subheader: 'Home to America’s original makers, Philadelphia has tons of great people, meetups and groups, but Forge Conference is the flagship event for those making an impact in the digital space. '
-  time: 
-  date: 2015-10-09
-  location: University of Pennsylvania Museum of Archaeology & Anthropology
-  eventlink: http://forgeconf.com/
-
-- title: 'Philly Dev Night'
-  subheader: 'Dev Night is a once-a-week event geared towards anyone interested in playing or creating games. It doesn’t matter if you’re an aspiring game developer, artist, writer, or even just a gamer; Dev Night will have something to offer.'
-  time: 7:00pm
-  date: 2015-10-08
-  location: Philly Game Forge, 239 Chestnut St.
-  eventlink:
-
 - title: 'Philly Dev Night'
   subheader: 'Dev Night is a once-a-week event geared towards anyone interested in playing or creating games. It doesn’t matter if you’re an aspiring game developer, artist, writer, or even just a gamer; Dev Night will have something to offer.'
   time: 7:00pm
@@ -47,31 +26,9 @@
   location: Philly Game Forge, 239 Chestnut St.
   eventlink:
 
-- title: CocoaLove
-  subheader: A conference about people, not tech. CocoaLove highlights the iOS/Mac community's passions, challenges, and triumphs.
-  time: 6pm
-  date: 2015-10-09
-  location:
-  eventlink: http://cocoalove.org/
-
-
-- title: 'Meteor Global Hackathon'
-  subheader: 'Save the date for the weekend of October 10th and 11th. This year the Meteor Development Groups is holding a global hackathon -- bringing the whole community together to build open-source projects and show everyone what you can accomplish with Meteor in 24 hrs. There will be cool prizes and categories to spur on creativity.'
-  time: 12pm
-  date: 2015-10-10
-  location: 'TBD'
-  eventlink: http://www.meetup.com/Meteor-Philadelphia/events/223405580/
-
 - title: 'Start.Stay.Grow. Summit'
   subheader: Your future starts now. Come learn and connect at an event organized by Philadelphia's technology and startup community for you.
   time: 5pm
   date: 2015-10-21
   location: '225 Chestnut St., Philadelphia, PA'
   eventlink: http://www.meetup.com/Technically-Philly/events/225064996/
-
-- title: 'CodePen Philly Meetup'
-  subheader: Come out to Intuitive Company in Manayunk for Philly's second CodePen Meetup. This event is being co-sponsored by the fine folks at Girl Develop It Philly and PHLDesign.
-  time: 6pm
-  date: 2015-10-08
-  location: '3 Rector St, Philadelphia, PA 19127'
-  eventlink: https://nvite.com/CodepenPhilly/ec08
