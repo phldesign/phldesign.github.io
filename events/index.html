@@ -10,6 +10,7 @@ fulltitle: "PHL Design"
 			{% assign eventPost = site.data.events | sort: 'date' %}
 			<div class="section-header">
 				<h2 class="page-subhead">Upcoming Events</h2>
+				<p>Have an event you would like posted? Check out <a href="https://docs.google.com/forms/d/1wkH_NrPRXluLrywV5B5uQ6Dw7Qbg987pUZipKZQ6nYE/viewform" target="_blank">this snazzy form</a>!</p>
 			</div>
 			{% for event in eventPost %}
 			{% assign curDate = site.time | date: '%m/%d/%Y' %}
