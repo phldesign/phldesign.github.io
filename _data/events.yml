@@ -81,3 +81,17 @@
   date: 2015-10-14
   location: '1526 Frankford Ave'
   eventlink: http://2015.designphiladelphia.org/events/bluecadet_open_studio
+
+- title: 'Society of Design Conference presented by Go Welsh'
+  subheader: 'A one-day, multidisciplinary design event featuring leading creatives who shape culture around the world. Inspiring, motivating, and spellbinding presentations that will very likely SHIFT the way you think about design.'
+  time: 9am
+  date: 2015-10-15
+  location: '3260 South Street, Philadelphia, PA 19104'
+  eventlink: https://www.eventbrite.com/e/society-of-design-conference-tickets-18169617816
+
+- title: 'DesignPhiladelphia Closing Event: Design Crawl in Old City'
+  subheader: 'Celebrate the closing night of the 11th annual DesignPhiladelphia Festival in the heart of Old City!'
+  time: 6pm
+  date: 2015-10-16
+  location: '141 N 3rd Street'
+  eventlink: http://2015.designphiladelphia.org/events/closing_event--design_crawl_in_old_city
