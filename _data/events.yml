@@ -67,3 +67,17 @@
   date: 2015-10-24
   location: 'N.3rd St & Poplar St, Philadelphia, PA'
   eventlink: http://www.meetup.com/Code-for-Philly/events/225602204/
+
+- title: 'Learn & Hack'
+  subheader: This year N3rd Street officially turns one year old and Code for Philly (as well as many others) are helping celebrate.
+  time: 6pm
+  date: 2015-11-04
+  location: 'Center City, Philadelphia, PA'
+  eventlink: http://www.meetup.com/Meteor-Philadelphia/events/223405585/
+
+- title: 'Bluecadet Open Studio'
+  subheader: 'Bluecadet is an Emmy Award-winning digital agency that creates world-class websites, mobile apps, films, interactive installations, and immersive environments.'
+  time: 6pm
+  date: 2015-10-14
+  location: '1526 Frankford Ave'
+  eventlink: http://2015.designphiladelphia.org/events/bluecadet_open_studio
