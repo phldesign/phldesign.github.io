@@ -1,3 +1,10 @@
+- title: 'PHLDesign Happy Hour'
+  subheader: 'Pull yourself away from the computer and join your fellow PHL pixel-pushers for our first community Happy Hour.'
+  time: 6:00pm
+  date: 2015-11-13
+  location: 'Brick & Mortar - 315 N 12th St, Philadelphia'
+  eventlink: http://attending.io/events/phldesign
+
 - title: 'PHLFUX Meetup'
   subheader: 'Year-end Front-end/UX meetup with two talks: Elements of Storytelling and Data Visualization by Phil Charron, VP Experience Design, at Think Brownstone and Quantifying a website’s visual appeal by Miguel Pérez, UX Consultant'
   time: 6:00pm
@@ -19,13 +26,6 @@
   location: Philly Game Forge, 239 Chestnut St.
   eventlink:
 
-- title: 'GDI: 4 Year Anniversary Party'
-  subheader: Join us to celebrate the outstanding community of women in tech in Philadelphia.
-  time: 6pm
-  date: 2015-10-23
-  location: '30 S. 15th Street, 15th Floor, Philadelphia, PA'
-  eventlink: http://www.meetup.com/Girl-Develop-It-Philadelphia/events/225589524/
-
 - title: 'Build Guild Philly'
   subheader: NEW LOCATION! We're going to be at 2nd Story Brewing right down the street from our old stomping grounds.
   time: 6pm
@@ -40,13 +40,6 @@
   location: '3250 Chestnut St, Philadelphia, PA 19104'
   eventlink: https://www.eventbrite.com/e/phillychi-workshops-2015-how-to-interview-customers-with-casey-malcolm-tickets-15869241328
 
-- title: 'N3rd St. Birthday Party!'
-  subheader: This year N3rd Street officially turns one year old and Code for Philly (as well as many others) are helping celebrate.
-  time: 12pm
-  date: 2015-10-24
-  location: 'N.3rd St & Poplar St, Philadelphia, PA'
-  eventlink: http://www.meetup.com/Code-for-Philly/events/225602204/
-
 - title: 'Learn & Hack'
   subheader: This year N3rd Street officially turns one year old and Code for Philly (as well as many others) are helping celebrate.
   time: 6pm
@@ -60,10 +53,3 @@
   date: 2015-11-07
   location: '3730 Walnut St., Philadelphia, PA 19104'
   eventlink: http://barcamp-philly.ticketleap.com/barcamp-philly-8/
-
-- title: 'South Jersey Creatives'
-  subheader: 'Curious about the creatives in your community? This is a great opportunity to get to know and network with them. Join us for the first meetup in our monthly series by setting the foundation and making new connections over light snacks and drinks. Future events will feature in-depth discussions including: business practices for creatives, growing your audience with social media, and more specific talks featuring special speakers.'
-  time: 7pm
-  date: 2015-10-23
-  location: '14 Kings Hwy W, Haddonfield, NJ 08033'
-  eventlink: http://www.meetup.com/South-Jersey-Creatives/events/225397562/
