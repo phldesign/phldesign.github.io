@@ -102,3 +102,10 @@
   date: 2015-11-20
   location: King's Hall - 14 Kings Highway West, Haddonfield, NJ
   eventlink: http://www.meetup.com/South-Jersey-Creatives/events/226148660/
+
+- title: Polymer Workshop
+  subheader: Polymer is a new kind of library, built atop Web Components, that enables developers to create their own encapsulated, custom HTML elements. With Polymer and Web Components, we can componentize the web!
+  time: 9am
+  date: 2015-11-14
+  location: 2001 Market St, Philadelphia, PA 19103
+  eventlink: http://polymer-workshop.ticketleap.com/polymer-workshop/
