@@ -17,3 +17,8 @@ a {
         color: darken($accent-dark, 20%);
     }
 }
+
+p.smaller {
+    font-size: 85%;
+    margin-top: 1em;
+}
