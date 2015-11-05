@@ -5,33 +5,12 @@
   location: 'Brick & Mortar - 315 N 12th St, Philadelphia'
   eventlink: http://attending.io/events/phldesign
 
-- title: 'PHLFUX Meetup'
-  subheader: 'Year-end Front-end/UX meetup with two talks: Elements of Storytelling and Data Visualization by Phil Charron, VP Experience Design, at Think Brownstone and Quantifying a website’s visual appeal by Miguel Pérez, UX Consultant'
-  time: 6:00pm
-  date: 2015-11-04
-  location: 'Quorum, 3711 Market Street, Floor 8, Philadelphia, PA'
-  eventlink: http://www.meetup.com/phlfux/events/226029789/
-
 - title: 'Philly Dev Night'
   subheader: 'Dev Night is a once-a-week event geared towards anyone interested in playing or creating games. It doesn’t matter if you’re an aspiring game developer, artist, writer, or even just a gamer; Dev Night will have something to offer.'
   time: 7:00pm
   date: 2015-11-05
   location: 'Philly Game Forge, 239 Chestnut St.'
   eventlink:
-
-- title: 'PhillyCHI Workshops 2015'
-  subheader: How To Interview Customers with Casey Malcolm
-  time: 1pm
-  date: 2015-11-04
-  location: '3250 Chestnut St, Philadelphia, PA 19104'
-  eventlink: https://www.eventbrite.com/e/phillychi-workshops-2015-how-to-interview-customers-with-casey-malcolm-tickets-15869241328
-
-- title: 'Learn & Hack'
-  subheader: This year N3rd Street officially turns one year old and Code for Philly (as well as many others) are helping celebrate.
-  time: 6pm
-  date: 2015-11-04
-  location: 'Center City, Philadelphia, PA'
-  eventlink: http://www.meetup.com/Meteor-Philadelphia/events/223405585/
 
 - title: 'BarCamp Philly 8'
   subheader: 'BarCamp Philly is an “unconference” – a day of programming collaboratively built by the people, for the people. The schedule board is cultivated the morning of the event, and is open to all attendees for contributions.'
