@@ -5,20 +5,6 @@
   location: 'Brick & Mortar - 315 N 12th St, Philadelphia'
   eventlink: http://attending.io/events/phldesign
 
-- title: 'Philly Dev Night'
-  subheader: 'Dev Night is a once-a-week event geared towards anyone interested in playing or creating games. It doesn’t matter if you’re an aspiring game developer, artist, writer, or even just a gamer; Dev Night will have something to offer.'
-  time: 7:00pm
-  date: 2015-11-05
-  location: 'Philly Game Forge, 239 Chestnut St.'
-  eventlink:
-
-- title: 'BarCamp Philly 8'
-  subheader: 'BarCamp Philly is an “unconference” – a day of programming collaboratively built by the people, for the people. The schedule board is cultivated the morning of the event, and is open to all attendees for contributions.'
-  time: 8am
-  date: 2015-11-07
-  location: '3730 Walnut St., Philadelphia, PA 19104'
-  eventlink: http://barcamp-philly.ticketleap.com/barcamp-philly-8/
-
 - title: 'Build Guild Philly'
   subheader: 'Build Guild is a bunch of web folks that enjoy chatting over drinks. It happens the last Wednesday of every month.'
   time: 6pm
