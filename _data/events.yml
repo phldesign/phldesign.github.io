@@ -1,3 +1,31 @@
+- title: 'Code for Philly Workshop #159'
+  subheader: Join us at our weekly workshop to learn about technology, sharpen your skills, and help Philly at the same time! 
+  time: 6pm
+  date: 2015-11-17
+  location:  908 North 3rd Street, Philadelphia, PA
+  eventlink: http://www.meetup.com/Code-for-Philly/events/226240988/
+
+- title: Philly Game Jam Showcase
+  subheader: Open office plans, brainstorming sessions, presentations to stakeholders. The modern day work environment is made for extroverts. Studies show that louder people are perceived as smarter, more likable, and better leaders.
+  time: 7pm
+  date: 2015-11-19
+  location:  239 Chestnut St.
+  eventlink: http://phillydevnight.com/
+
+- title: Indy Hall - Show & Tell
+  subheader: Open office plans, brainstorming sessions, presentations to stakeholders. The modern day work environment is made for extroverts. Studies show that louder people are perceived as smarter, more likable, and better leaders.
+  time: 12pm
+  date: 2015-11-19
+  location:  20 North 3rd Street, Philadelphia, PA
+  eventlink: http://www.meetup.com/IndyHall/events/223986598/
+
+- title: Success or Nap? An Introvert's Dilemma by Melissa Morris-Ivone
+  subheader: Open office plans, brainstorming sessions, presentations to stakeholders. The modern day work environment is made for extroverts. Studies show that louder people are perceived as smarter, more likable, and better leaders.
+  time: 7pm
+  date: 2015-11-20
+  location: King's Hall - 14 Kings Highway West, Haddonfield, NJ
+  eventlink: http://www.meetup.com/South-Jersey-Creatives/events/226148660/
+
 - title: 'Build Guild Philly'
   subheader: 'Build Guild is a bunch of web folks that enjoy chatting over drinks. It happens the last Wednesday of every month.'
   time: 6pm
@@ -5,19 +33,19 @@
   location: '117 Chestnut St, Philadelphia, PA'
   eventlink: http://www.meetup.com/Build-Guild-Philly/events/cwqgklytpbhc/
 
-- title: 'Build Guild Philly'
-  subheader: 'Build Guild is a bunch of web folks that enjoy chatting over drinks. It happens the last Wednesday of every month.'
-  time: 6pm
-  date: 2016-02-24
-  location: '117 Chestnut St, Philadelphia, PA'
-  eventlink: http://www.meetup.com/Build-Guild-Philly/events/cwqgklyvdbgc/
+- title: Philly Dev Night
+  subheader: Open office plans, brainstorming sessions, presentations to stakeholders. The modern day work environment is made for extroverts. Studies show that louder people are perceived as smarter, more likable, and better leaders.
+  time: 7pm
+  date: 2015-11-26
+  location:  239 Chestnut St.
+  eventlink: http://phillydevnight.com/
 
-- title: 'Build Guild Philly'
-  subheader: 'Build Guild is a bunch of web folks that enjoy chatting over drinks. It happens the last Wednesday of every month.'
-  time: 6pm
-  date: 2016-01-27
-  location: '117 Chestnut St, Philadelphia, PA'
-  eventlink: http://www.meetup.com/Build-Guild-Philly/events/cwqgklyvcbkc/
+- title: Philly Dev Night
+  subheader: Open office plans, brainstorming sessions, presentations to stakeholders. The modern day work environment is made for extroverts. Studies show that louder people are perceived as smarter, more likable, and better leaders.
+  time: 7pm
+  date: 2015-12-03
+  location:  239 Chestnut St.
+  eventlink: http://phillydevnight.com/
 
 - title: 'Build Guild Philly'
   subheader: 'Build Guild is a bunch of web folks that enjoy chatting over drinks. It happens the last Wednesday of every month.'
@@ -33,9 +61,79 @@
   location: 'TBD'
   eventlink: http://www.meetup.com/Girl-Develop-It-Philadelphia/events/225972030/
 
-- title: Success or Nap? An Introvert's Dilemma by Melissa Morris-Ivone
+- title: Philly Dev Night
   subheader: Open office plans, brainstorming sessions, presentations to stakeholders. The modern day work environment is made for extroverts. Studies show that louder people are perceived as smarter, more likable, and better leaders.
   time: 7pm
-  date: 2015-11-20
-  location: King's Hall - 14 Kings Highway West, Haddonfield, NJ
-  eventlink: http://www.meetup.com/South-Jersey-Creatives/events/226148660/
+  date: 2015-12-10
+  location:  239 Chestnut St.
+  eventlink: http://phillydevnight.com/
+
+- title: 'HTML105: Building HTML Newsletters'
+  subheader: 'Have you discovered that building HTML email newsletters is a common requirement for entry level web development positions? Are you are getting your business up & running and are eager to promote your company via e-newsletters? '
+  time: 11:45am
+  date: 2015-12-12
+  location: '417 North 8th Street, Second Floor, Philadelphia, PA'
+  eventlink: http://www.meetup.com/Girl-Develop-It-Philadelphia/events/225539764/
+
+- title: Philly Dev Night
+  subheader: Open office plans, brainstorming sessions, presentations to stakeholders. The modern day work environment is made for extroverts. Studies show that louder people are perceived as smarter, more likable, and better leaders.
+  time: 7pm
+  date: 2015-12-17
+  location:  239 Chestnut St.
+  eventlink: http://phillydevnight.com/
+
+- title: Philly Dev Night
+  subheader: Open office plans, brainstorming sessions, presentations to stakeholders. The modern day work environment is made for extroverts. Studies show that louder people are perceived as smarter, more likable, and better leaders.
+  time: 7pm
+  date: 2015-12-24
+  location:  239 Chestnut St.
+  eventlink: http://phillydevnight.com/
+
+- title: Philly Dev Night
+  subheader: Open office plans, brainstorming sessions, presentations to stakeholders. The modern day work environment is made for extroverts. Studies show that louder people are perceived as smarter, more likable, and better leaders.
+  time: 7pm
+  date: 2015-12-31
+  location:  239 Chestnut St.
+  eventlink: http://phillydevnight.com/
+
+- title: Philly Dev Night
+  subheader: Open office plans, brainstorming sessions, presentations to stakeholders. The modern day work environment is made for extroverts. Studies show that louder people are perceived as smarter, more likable, and better leaders.
+  time: 7pm
+  date: 2015-01-07
+  location:  239 Chestnut St.
+  eventlink: http://phillydevnight.com/
+
+- title: Philly Dev Night
+  subheader: Open office plans, brainstorming sessions, presentations to stakeholders. The modern day work environment is made for extroverts. Studies show that louder people are perceived as smarter, more likable, and better leaders.
+  time: 7pm
+  date: 2015-01-14
+  location:  239 Chestnut St.
+  eventlink: http://phillydevnight.com/
+
+- title: Philly Dev Night
+  subheader: Open office plans, brainstorming sessions, presentations to stakeholders. The modern day work environment is made for extroverts. Studies show that louder people are perceived as smarter, more likable, and better leaders.
+  time: 7pm
+  date: 2015-01-21
+  location:  239 Chestnut St.
+  eventlink: http://phillydevnight.com/
+
+- title: Philly Dev Night
+  subheader: Open office plans, brainstorming sessions, presentations to stakeholders. The modern day work environment is made for extroverts. Studies show that louder people are perceived as smarter, more likable, and better leaders.
+  time: 7pm
+  date: 2015-01-28
+  location:  239 Chestnut St.
+  eventlink: http://phillydevnight.com/
+
+- title: 'Build Guild Philly'
+  subheader: 'Build Guild is a bunch of web folks that enjoy chatting over drinks. It happens the last Wednesday of every month.'
+  time: 6pm
+  date: 2016-01-27
+  location: '117 Chestnut St, Philadelphia, PA'
+  eventlink: http://www.meetup.com/Build-Guild-Philly/events/cwqgklyvcbkc/
+  
+- title: 'Build Guild Philly'
+  subheader: 'Build Guild is a bunch of web folks that enjoy chatting over drinks. It happens the last Wednesday of every month.'
+  time: 6pm
+  date: 2016-02-24
+  location: '117 Chestnut St, Philadelphia, PA'
+  eventlink: http://www.meetup.com/Build-Guild-Philly/events/cwqgklyvdbgc/
