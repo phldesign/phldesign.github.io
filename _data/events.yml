@@ -1,37 +1,9 @@
-- title: 'Girl Develop It: Marketing 101'
-  subheader: 'Whether you are building a website, launching a product, or starting a project, marketing is a key element. You are invited to learn marketing basics and strategies during this interactive Marketing 101 workshop.'
-  time: 6:45pm
-  date: 2015-12-07
-  location: 'TBD'
-  eventlink: http://www.meetup.com/Girl-Develop-It-Philadelphia/events/225972030/
-
-- title: 'Code for Philly Workshop #162 Duck Duck Go Mashup'
-  subheader: 'Whether you are building a website, launching a product, or starting a project, marketing is a key element. You are invited to learn marketing basics and strategies during this interactive Marketing 101 workshop.'
-  time: 6pm
-  date: 2015-12-08
-  location: '1401 John F Kennedy Boulevard, 16th Floor, Philadelphia, PA'
-  eventlink: http://www.meetup.com/Code-for-Philly/events/226769979/
-
-- title: 'Node.js show and tell! '
-  subheader: This is the second-Tuesday Philly node.js meetup group! We start things out informally and anyone that has something to share shows off what they've been doing with node.js.
-  time: 6:30pm
-  date: 2015-12-08
-  location: '1315 Walnut St , Suite 1500, Philadelphia, PA'
-  eventlink: http://www.meetup.com/nodejs-philly/events/226189670/
-
-- title: Philly Dev Night
-  subheader: Open office plans, brainstorming sessions, presentations to stakeholders. The modern day work environment is made for extroverts. Studies show that louder people are perceived as smarter, more likable, and better leaders.
-  time: 7pm
-  date: 2015-12-10
-  location: 239 Chestnut St.
-  eventlink: http://phillydevnight.com/
-
-- title: 'HTML105: Building HTML Newsletters'
-  subheader: 'Have you discovered that building HTML email newsletters is a common requirement for entry level web development positions? Are you are getting your business up & running and are eager to promote your company via e-newsletters? '
-  time: 11:45am
-  date: 2015-12-12
-  location: '417 North 8th Street, Second Floor, Philadelphia, PA'
-  eventlink: http://www.meetup.com/Girl-Develop-It-Philadelphia/events/225539764/
+- title: GDI Holiday Party
+  subheader: 'The year has almost come to an end and we have a lot to show for it! Over 90 Meetups, nearly 1,200 new members, and astoundingly - more than 2,900 RSVPs to our events.'
+  time: 6pm - 8pm
+  date: 2015-12-15
+  location:  '1114 Frankford Ave, Philadelphia, PA'
+  eventlink: http://www.meetup.com/Girl-Develop-It-Philadelphia/events/227163718/
 
 - title: Philly Dev Night
   subheader: Open office plans, brainstorming sessions, presentations to stakeholders. The modern day work environment is made for extroverts. Studies show that louder people are perceived as smarter, more likable, and better leaders.
@@ -46,6 +18,13 @@
   date: 2015-12-17
   location: 1217 Sansom Street, 8th Floor, Philadelphia, PA
   eventlink: http://www.meetup.com/Technically-Philly/events/226795412/
+
+- title: 'Game Design / RESISTOR_ Talk & Table Top Game Night!'
+  subheader: There will be a bit of time after the talk to play some games so bring your favorite tabletop game to play and we'll set up for a relaxed night of fun!
+  time: 7pm
+  date: 2015-12-18
+  location:  8 Kings Highway West, Haddenfield, NJ
+  eventlink: http://www.meetup.com/South-Jersey-Creatives/events/225399055/
 
 - title: Philly Dev Night
   subheader: Open office plans, brainstorming sessions, presentations to stakeholders. The modern day work environment is made for extroverts. Studies show that louder people are perceived as smarter, more likable, and better leaders.
@@ -88,6 +67,13 @@
   date: 2016-01-15
   location: 'TBD'
   eventlink: https://attending.io/events/phldesignrd2
+
+- title: 'DPM Philly January Meetup '
+  subheader:
+  time: 6pm - 8pm
+  date: 2016-01-19
+  location: 'TBD'
+  eventlink: http://www.meetup.com/DPM-Philly/events/227255480/
 
 - title: Philly Dev Night
   subheader: Open office plans, brainstorming sessions, presentations to stakeholders. The modern day work environment is made for extroverts. Studies show that louder people are perceived as smarter, more likable, and better leaders.
