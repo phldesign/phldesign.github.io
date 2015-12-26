@@ -18,4 +18,6 @@ email: "hi@antnguyen.com"
 
 exclude: [README.md, node_modules, gruntfile.js, package.json]
 
+markdown: kramdown
+
 excerpt_separator: ""
