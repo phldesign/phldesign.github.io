@@ -8,13 +8,10 @@ body {
 
 a {
     @include transition(all, 250ms, ease-in-out);
-    color: $accent;
-    text-decoration: none;
-    &:visited {
-        color: lighten($accent, 30%);
-    }
+    color: $primary;
+    text-decoration: underline;
     &:hover {
-        color: darken($accent-dark, 20%);
+        color: darken($primary, 10%);
     }
 }
 
