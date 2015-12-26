@@ -10,13 +10,13 @@ categories: jobs
 permalink: /jobs/andculture/research-experience-designer
 ---
 
-### OUR COMPANY
+### Our Company
 Andculture is an experience design company. We craft digital products and brand experiences. Each and every day, we push to advance our thinking, expertise and individual skill sets. Ultimately, though, no matter how great our technological capabilities or how genius our strategy, it’s design that carries the burden of showcasing our vision to the world.
 
-### THE ROLE
+### The Role
 Experience designers at Andculture are user champions and advocates for design thinking. The ideal experience designer pushes Andculture to deliver exceptional and unexpected work and pushes clients to deliver the best possible products and services to users. Through research, facilitation and deep understanding of design principles, heuristics and human factors, the experience designer solves—and uncovers—problems.
 
-### BEHAVIORS
+### Behaviors
 * Strong critical thinking ability.
 * Sketching proficiency in various media—in words, through graphics, on a whiteboard or interactively.
 * Excellent communication skills—specifically, the ability to articulate verbally, visually and in writing.
@@ -25,7 +25,7 @@ Experience designers at Andculture are user champions and advocates for design t
 * Empathy—for users, management and teammates.
 * Strong appetite for new information. Working knowledge in psychology, sociology, anthropology, etc. that is always growing.
 
-### DUTIES
+### Duties
 Ultimately, experience designers are responsible for defining research-based experiences that intrigue and captivate target audiences and advocate for human-centered design methodologies.
 
 * Own the research phase of projects. Plan and perform primary and secondary research. Meaningfully involve other members of project team in research activities in a manner that makes best use of their unique perspective and abilities.
@@ -40,7 +40,7 @@ Ultimately, experience designers are responsible for defining research-based exp
 * Share unique knowledge with other members of the project team.
 * Teach Design Thinking methodologies and the rationale behind them whenever possible, to your teams and the company as a whole.
 
-### REQUIRED EXPERIENCE IN AT LEAST TWO OF THE FOLLOWING AREAS, WITH A STRONG INTEREST IN LEARNING MORE ABOUT THE OTHERS:
+### Required Experience In At Least Two Of The Following Areas, With A Strong Interest In Learning More About The Others:
 * Experience Design
 * Service Design
 * Ethnography
@@ -49,7 +49,7 @@ Ultimately, experience designers are responsible for defining research-based exp
 * Product design
 * Information architecture
 
-### ADDITIONAL SKILLS WE VALUE:
+### Additional Skills We Value:
 * Writing and composition.
 * Public speaking and presenting
 * Prototyping—digital and analog methods.

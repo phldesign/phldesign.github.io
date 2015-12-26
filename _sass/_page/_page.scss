@@ -135,13 +135,15 @@
     }
 }
 
-.job-post {
+.job-post,
+.code-of-conduct {
     line-height: 1.8;
     h3 {
         font: {
-            size: 20px;
+            size: 22px;
             weight: 300;
         };
+        text-transform: capitalize;
     }
     p {
         font: {
