@@ -1,3 +1,14 @@
+.promo-call-out {
+    background-color: #333333;
+    color: white;
+    a {
+        color: white;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
 .intro-block {
     padding: 40px 0;
     border-bottom: 1px solid $primary;
