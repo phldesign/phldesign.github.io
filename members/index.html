@@ -4,35 +4,33 @@ title: "Members Directory"
 fulltitle: "Members Directory" 
 ---
 
-<div class="wrapper">
-	<div class="row">
+	<div class="row page-section-content">
 		<div class="small-12 columns">
 			{% assign memberPost = site.data.members | sort: 'name' %}
 			{% for members in site.data.members %}
 			{% capture post_count %} {{ post_count | plus: 1 }} {% endcapture %}
 			{% endfor %}
 			<div class="section-header">
-				<h2 class="page-subhead links"><a href="/agencies">Agencies</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="selected">Members</span></h2>
-				<p>Want to be listed on the members page? Fill out <a href="https://docs.google.com/forms/d/1t46tmPKnMahH07avaGakEWPZTykOxrQpXnFr9PJ8sQQ/viewform" target="_blank">this snazzy form</a>!</p>
+				<h2 class="page-section-title"><a href="/agencies">Agencies</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="selected">Members</span></h2>
 			</div>
 			{% for member in memberPost %}
 			{% assign loopindex = forloop.index | modulo: 3 %}
 			{% if loopindex == 1 %}
 			<div class="row">
-				<div class="large-4 small-12 columns">
+				<div class="medium-4 small-12 columns">
 					<span class="anchor" id="{{ member.name }}"></span>
-					<div class="content--block">
-						<h3 class="content--title">{{ member.name }}</h3>
+					<div class="content-block">
+						<h3 class="content-title">{{ member.name }}</h3>
 						{% if member.company %}
 							{% if member.companyurl %}
-								<p>{{ member.position}} @ <span class="content--company"><a href="{{ member.companyurl }}" target="_blank">{{ member.company }}</a></p></span>
+								<p>{{ member.position}} @ <span class="content-company"><a href="{{ member.companyurl }}" target="_blank">{{ member.company }}</a></p></span>
 							{% else %}
-								<p>{{ member.position }} @ <span class="content--company">{{ member.company }}</p></span>
+								<p>{{ member.position }} @ <span class="content-company">{{ member.company }}</p></span>
 							{% endif %}
 						{% else %}
 							<p>{{ member.position }}</p>
 						{% endif %}
-						<ul class="social--links">
+						<ul class="social-links">
 							{% if member.twitter %}<li><a class="fa fa-twitter" href="http://www.twitter.com/{{ member.twitter }}" target="_blank"></a></li>{% endif %}
 							{% if member.dribbble %}<li><a class="fa fa-dribbble" href="http://www.dribbble.com/{{ member.dribbble }}" target="_blank"></a></li>{% endif %}
 							{% if member.instagram %}<li><a class="fa fa-instagram" href="http://www.instagram.com/{{ member.instagram }}" target="_blank"></a></li>{% endif %}
@@ -43,20 +41,20 @@ fulltitle: "Members Directory"
 					</div>
 				</div>
 				{% elsif loopindex == 2 %}
-				<div class="large-4 small-12 columns">
+				<div class="medium-4 small-12 columns">
 					<span class="anchor" id="{{ member.name }}"></span>
-					<div class="content--block">
-						<h3 class="content--title">{{ member.name }}</h3>
+					<div class="content-block">
+						<h3 class="content-title">{{ member.name }}</h3>
 						{% if member.company %}
 							{% if member.companyurl %}
-								<p>{{ member.position}} @ <span class="content--company"><a href="{{ member.companyurl }}" target="_blank">{{ member.company }}</a></p></span>
+								<p>{{ member.position}} @ <span class="content-company"><a href="{{ member.companyurl }}" target="_blank">{{ member.company }}</a></p></span>
 							{% else %}
-								<p>{{ member.position }} @ <span class="content--company">{{ member.company }}</p></span>
+								<p>{{ member.position }} @ <span class="content-company">{{ member.company }}</p></span>
 							{% endif %}
 						{% else %}
 							<p>{{ member.position }}</p>
 						{% endif %}
-						<ul class="social--links">
+						<ul class="social-links">
 							{% if member.twitter %}<li><a class="fa fa-twitter" href="http://www.twitter.com/{{ member.twitter }}" target="_blank"></a></li>{% endif %}
 							{% if member.dribbble %}<li><a class="fa fa-dribbble" href="http://www.dribbble.com/{{ member.dribbble }}" target="_blank"></a></li>{% endif %}
 							{% if member.instagram %}<li><a class="fa fa-instagram" href="http://www.instagram.com/{{ member.instagram }}" target="_blank"></a></li>{% endif %}
@@ -67,20 +65,20 @@ fulltitle: "Members Directory"
 					</div>
 				</div>
 				{% else %}
-				<div class="large-4 small-12 columns">
+				<div class="medium-4 small-12 columns">
 					<span class="anchor" id="{{ member.name }}"></span>
-					<div class="content--block">
-						<h3 class="content--title">{{ member.name }}</h3>
+					<div class="content-block">
+						<h3 class="content-title">{{ member.name }}</h3>
 						{% if member.company %}
 							{% if member.companyurl %}
-								<p>{{ member.position}} @ <span class="content--company"><a href="{{ member.companyurl }}" target="_blank">{{ member.company }}</a></p></span>
+								<p>{{ member.position}} @ <span class="content-company"><a href="{{ member.companyurl }}" target="_blank">{{ member.company }}</a></p></span>
 							{% else %}
-								<p>{{ member.position }} @ <span class="content--company">{{ member.company }}</p></span>
+								<p>{{ member.position }} @ <span class="content-company">{{ member.company }}</p></span>
 							{% endif %}
 						{% else %}
 							<p>{{ member.position }}</p>
 						{% endif %}
-						<ul class="social--links">
+						<ul class="social-links">
 							{% if member.twitter %}<li><a class="fa fa-twitter" href="http://www.twitter.com/{{ member.twitter }}" target="_blank"></a></li>{% endif %}
 							{% if member.dribbble %}<li><a class="fa fa-dribbble" href="http://www.dribbble.com/{{ member.dribbble }}" target="_blank"></a></li>{% endif %}
 							{% if member.instagram %}<li><a class="fa fa-instagram" href="http://www.instagram.com/{{ member.instagram }}" target="_blank"></a></li>{% endif %}
@@ -95,5 +93,4 @@ fulltitle: "Members Directory"
 			{% endfor %}
 		</div>
 	</div>
-</div>
 </div>
