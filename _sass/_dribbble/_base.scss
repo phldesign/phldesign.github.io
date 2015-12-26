@@ -11,6 +11,10 @@ ul.shots {
         list-style: none;
         -webkit-flex-basis: 25%;
         flex-basis: 25%;
+        img {
+            -webkit-transition: opacity 0.35s ease-in-out;
+            transition: opacity 0.35s ease-in-out;
+        }
         .username--block {
             @include dribbble-gradient;
             padding: 4px;
@@ -32,6 +36,7 @@ ul.shots {
                     weight: 700;
                 };
                 text-transform: uppercase;
+                color: #333;
             }
         }
         &:hover {
@@ -42,6 +47,9 @@ ul.shots {
                 transform: translate3d(0, 0, 0);
                 opacity: 1;
                 bottom: -1px;
+            }
+            img {
+                opacity: .5;
             }
         }
     }
