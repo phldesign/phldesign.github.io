@@ -1,0 +1,49 @@
+#header {
+    background: #f42365;
+    background: -moz-linear-gradient(left, #f42365 0%, #e10434 100%);
+    background: -webkit-linear-gradient(left, #f42365 0%, #e10434 100%);
+    background: linear-gradient(to right, #f42365 0%, #e10434 100%);
+    text-align: left;
+}
+
+.page-logo {
+    display: inline-block;
+    width: 50px;
+    height: auto;
+    margin: 1em 0;
+    @media only screen and (min-width: 1025px) {
+        width: 74px;
+    }
+}
+
+.logo-type {
+    display: inline-block;
+    font: {
+        size: 21px;
+        weight: 700;
+    };
+    color: white;
+    padding: 0 0 0 1em;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1em;
+    text-align: left;
+    li {
+        display: inline-block;
+        padding: .25em .75em;
+        a {
+            color: white;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    @media only screen and (min-width: 1025px) {
+        float: right;
+        padding-top: 1.875em;
+    }
+}
