@@ -16,6 +16,6 @@ email: "hi@antnguyen.com"
 #sass:
 #    style: :compressed
 
-exclude: [README.md, node_modules, gruntfile.js, package.json]
+exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
 
 excerpt_separator: ""
