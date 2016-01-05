@@ -137,10 +137,10 @@
 
 .job-post,
 .code-of-conduct {
-    line-height: 1.8;
+    line-height: 1.9;
     h3 {
         font: {
-            size: 22px;
+            size: 24px;
             weight: 300;
         };
         text-transform: capitalize;
@@ -151,7 +151,10 @@
         };
         line-height: 1.8;
     }
-    ul {
+    ul, ol {
         margin: 0 0 1em;
+        font: {
+            size: 16px;
+        };
     }
 }
