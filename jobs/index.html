@@ -16,6 +16,7 @@ fulltitle: "PHL Design"
 	<div class="row">
 		<div class="medium-4 small-12 columns end">
 			<div class="content-block">
+			<p class="content-date">{{ post.date | date: '%B %d, %Y' }}</p>
 				<p class="content-company">{{ post.company }}</p>
 				<h3 class="content-title"><a href="{{ post.url }}">{{ post.position }}</h3><button>More Info</button></a>
 			</div>
@@ -23,6 +24,7 @@ fulltitle: "PHL Design"
 		{% elsif loopindex == 2 %}
 		<div class="medium-4 small-12 columns end">
 			<div class="content-block">
+			<p class="content-date">{{ post.date | date: '%B %d, %Y' }}</p>
 				<p class="content-company">{{ post.company }}</p>
 				<h3 class="content-title"><a href="{{ post.url }}">{{ post.position }}</h3><button>More Info</button></a>
 			</div>
@@ -30,6 +32,7 @@ fulltitle: "PHL Design"
 		{% else %}
 		<div class="medium-4 small-12 columns end">
 			<div class="content-block">
+			<p class="content-date">{{ post.date | date: '%B %d, %Y' }}</p>
 				<p class="content-company">{{ post.company }}</p>
 				<h3 class="content-title"><a href="{{ post.url }}">{{ post.position }}</h3><button>More Info</button></a>
 			</div>

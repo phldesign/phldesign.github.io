@@ -18,13 +18,13 @@
 
 	<div class="row page-section-content">
 		<div class="small-12 large-8 large-offset-2 end columns content-block job-post">
+			<p class="content-date">{{ page.date | date: '%B %d, %Y' }}</p>
 			{% if page.companyurl %}
 			<p class="content-company"><a href="{{ page.companyurl }}" target="_blank">{{ page.company }}</a></p>
 			{% else %}
 			<p class="content-company">{{ page.company }}</p>
 			{% endif %}
 			<h1 class="content-title">{{ page.position }}</h1>
-			<p><em>Posted: {{ page.date | date: '%B %d, %Y' }}</em></p>
 			{% if page.reference %}
 			<p class="job--curator">via <a href="/members#{{ page.reference }}">{{page.reference}}</a></p>
 			{% else %}

@@ -120,10 +120,10 @@
 
 .content-company {
     font: {
-        size: 16px;
+        size: 18px;
         weight: 700;
     };
-    margin: 0;
+    margin: .25em 0 0;
 }
 
 .view-all-link {
@@ -146,9 +146,6 @@
         text-transform: capitalize;
     }
     p {
-        font: {
-            size: 16px;
-        };
         line-height: 1.8;
     }
     ul, ol {
@@ -157,4 +154,11 @@
             size: 16px;
         };
     }
+}
+
+.job-date {
+    font: {
+        size: 12px;
+    };
+    margin: 0;
 }
