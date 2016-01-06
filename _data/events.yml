@@ -19,6 +19,13 @@
   location: 1315 Walnut St, Suite 1500, Philadelphia, PA
   eventlink: http://www.meetup.com/nodejs-philly/events/227279164/
 
+- title: 'Intro to Programming Concepts'
+  subheader: 'This will truly be an introductory class. If you’ve taken GDI’s Intro to Javascript or any equivalent classes and successfully completed the exercises, this class is not for you. If you’re a programmer by profession, this class is not for you.'
+  time: 6:30pm
+  date: 2016-01-12
+  location: 1211 Chestnut Street Suite 400, Philadelphia, PA
+  eventlink: http://www.meetup.com/Girl-Develop-It-Philadelphia/events/227845441/
+
 - title: Philly Dev Night
   subheader: Open office plans, brainstorming sessions, presentations to stakeholders. The modern day work environment is made for extroverts. Studies show that louder people are perceived as smarter, more likable, and better leaders.
   time: 7pm
@@ -47,12 +54,19 @@
   location: '111 South 15th Street Mezzanine, Philadelphia, PA'
   eventlink: http://www.meetup.com/DPM-Philly/events/227255480/
 
-- title: 'Philly New Technology Meetup #21 - January 2016 - IoT'
+- title: 'Philly New Technology Meetup #21'
   subheader: 'Third Wednesday of the month, as always! In partnership with the IoT (Internet of Things) Meetup. Details coming soon.'
   time: 5:45pm
   date: 2016-01-20
   location: '111 South 15th Street Mezzanine, Philadelphia, PA'
   eventlink: http://www.meetup.com/Philly-New-Tech-Meetup/events/227455344/
+
+- title: AIGA Philadelphia - Louise Fili
+  subheader: AIGA Philadelphia is excited to present an evening with legendary designer and AIGA Medalist, Louise Fili.
+  time: 6:30pm
+  date: 2016-01-21
+  location: '211 South Broad St, Philadelphia, PA 19102'
+  eventlink: http://philadelphia.aiga.org/event/louise-fili/
 
 - title: Philly Dev Night
   subheader: Open office plans, brainstorming sessions, presentations to stakeholders. The modern day work environment is made for extroverts. Studies show that louder people are perceived as smarter, more likable, and better leaders.
@@ -67,6 +81,13 @@
   date: 2016-01-21
   location: '20 North 3rd Street, Philadelphia, PA'
   eventlink: http://www.meetup.com/IndyHall/events/227430428/
+
+- title: 'Table Top Game Night!'
+  subheader: We're starting 2016 off with a table top game night! Bring your favorite tabletop game to play and come have some fun! This meetup has limited space available, to ensure a spot, please RSVP! Light snacks and beverages will be available.
+  time: 7pm
+  date: 2016-01-22
+  location: '8 Kings Highway West, Haddenfield, NJ'
+  eventlink: http://www.meetup.com/South-Jersey-Creatives/events/227833378/
 
 - title: Philly Dev Night
   subheader: Open office plans, brainstorming sessions, presentations to stakeholders. The modern day work environment is made for extroverts. Studies show that louder people are perceived as smarter, more likable, and better leaders.
