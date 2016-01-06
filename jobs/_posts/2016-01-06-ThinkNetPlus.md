@@ -1,6 +1,6 @@
 ---
 layout: jobpost
-date: 2016-01-05
+date: 2016-01-06
 position: Interactive Designer
 company: Netplus
 companyurl: http://thinknetplus.com/
