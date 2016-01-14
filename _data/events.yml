@@ -1,17 +1,3 @@
-- title: 'Node.js Show & Tell'
-  subheader: This is the second-Tuesday Philly node.js meetup group!  We start things out informally and anyone that has something to share shows off what they've been doing with node.js.
-  time: 6:30pm
-  date: 2016-01-12
-  location: 1315 Walnut St, Suite 1500, Philadelphia, PA
-  eventlink: http://www.meetup.com/nodejs-philly/events/227279164/
-
-- title: 'Intro to Programming Concepts'
-  subheader: 'This will truly be an introductory class. If you’ve taken GDI’s Intro to Javascript or any equivalent classes and successfully completed the exercises, this class is not for you. If you’re a programmer by profession, this class is not for you.'
-  time: 6:30pm
-  date: 2016-01-12
-  location: 1211 Chestnut Street Suite 400, Philadelphia, PA
-  eventlink: http://www.meetup.com/Girl-Develop-It-Philadelphia/events/227845441/
-
 - title: Philly Dev Night
   subheader: Open office plans, brainstorming sessions, presentations to stakeholders. The modern day work environment is made for extroverts. Studies show that louder people are perceived as smarter, more likable, and better leaders.
   time: 7pm
