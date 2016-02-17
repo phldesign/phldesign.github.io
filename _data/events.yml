@@ -1,31 +1,3 @@
-- title: Node.js Show & Tell
-  subheader: This is the second-Tuesday Philly node.js meetup group!  We start things out informally and anyone that has something to share shows off what they've been doing with node.js.
-  time: 6:30pm
-  date: 2016-02-09
-  location: 1315 Walnut St, Suite 1500, Philadelphia, PA
-  eventlink: http://www.meetup.com/nodejs-philly/events/227571327/
-
-- title: 'Meteor Philly: Learn & Hack'
-  subheader:
-  time: 6pm
-  date: 2016-02-10
-  location:
-  eventlink: http://www.meetup.com/Meteor-Philadelphia/events/227113571/
-  
-- title: 'HTML201: Beyond the Basics of HTML/CSS'
-  subheader: 'This class runs on Sat, February 13 & Sun, February 14 from 12:45pm to 5pm.'
-  time: 12:45pm
-  date: 2016-02-13
-  location: 1315 Walnut St, Suite 1500, Philadelphia, PA
-  eventlink: http://www.meetup.com/Girl-Develop-It-Philadelphia/events/228118994/
-
-- title: 'New Year— New Portfolio'
-  subheader: 'This class runs on Sat, February 13 & Sun, February 14 from 12:45pm to 5pm.'
-  time: 7:00pm
-  date: 2016-02-16
-  location:
-  eventlink: http://www.meetup.com/Philadelphia-UI-UX-Design-Meetup/events/228391363/
-
 - title: 'Teaching Meetup'
   subheader: 'One of our 2016 objectives is to provide meetups and training programs, specifically designed for our community of teachers and aspiring teachers. We are very excited to announce our first teacher focused enrichment event! '
   time: 6:30pm
@@ -46,6 +18,13 @@
   date: 2016-02-24
   location: '117 Chestnut St, Philadelphia, PA'
   eventlink: http://www.meetup.com/Build-Guild-Philly/events/cwqgklyvdbgc/
+
+- title: 'South Jersey Creatives: Robert Kraiza Watercolor Techniques Workshop'
+  subheader: 'Learn the basic techniques used by Robert Kraiza for his watercolor paintings. From materials setup to the use of masking fluid to paint using washes creating final details to achieve different effects like foliage and hair.'
+  time: 6pm
+  date: 2016-02-26
+  location: 'Kings Hall, 8 Kings Highway West, Haddonfield, NJ'
+  eventlink: http://sjcreatives.ticketleap.com/watercolor-the-kraiza-way
 
 - title: 'Node.js Show & Tell'
   subheader: This is the second-Tuesday Philly node.js meetup group!  We start things out informally and anyone that has something to share shows off what they've been doing with node.js.
