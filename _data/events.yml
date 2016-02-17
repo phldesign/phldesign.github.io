@@ -12,12 +12,26 @@
   location: '20 North 3rd Street, Philadelphia, PA'
   eventlink: http://www.meetup.com/IndyHall/events/qhvhwfyvdbxb/
 
+- title: 'Game Jam Judging'
+  subheader:
+  time: 7pm
+  date: 2016-02-18
+  location: '239 Chestnut St, Philadelphia, PA'
+  eventlink: http://phillydevnight.com/
+
 - title: 'Build Guild Philly'
   subheader: 'Build Guild is a bunch of web folks that enjoy chatting over drinks. It happens the last Wednesday of every month.'
   time: 6pm
   date: 2016-02-24
   location: '117 Chestnut St, Philadelphia, PA'
   eventlink: http://www.meetup.com/Build-Guild-Philly/events/cwqgklyvdbgc/
+
+- title: 'Philly Dev Night'
+  subheader: 'Dev Night is a once-a-week event geared towards anyone interested in playing or creating games.'
+  time: 7pm
+  date: 2016-02-25
+  location: '239 Chestnut St, Philadelphia, PA'
+  eventlink: http://phillydevnight.com/
 
 - title: 'South Jersey Creatives: Robert Kraiza Watercolor Techniques Workshop'
   subheader: 'Learn the basic techniques used by Robert Kraiza for his watercolor paintings. From materials setup to the use of masking fluid to paint using washes creating final details to achieve different effects like foliage and hair.'
@@ -26,12 +40,54 @@
   location: 'Kings Hall, 8 Kings Highway West, Haddonfield, NJ'
   eventlink: http://sjcreatives.ticketleap.com/watercolor-the-kraiza-way
 
+- title: 'Side Project Saturday @ IndyHall'
+  subheader: 'Side Project Saturday is an opportunity to work on your iOS/Mac projects in a group setting. Its a great chance to get help with your app, share your ideas, and socialize with other developers! Beginners are always welcome!'
+  time: 10am
+  date: 2016-02-27
+  location: '20 North 3rd St, Unit 201, Philadelphia, PA'
+  eventlink: http://www.meetup.com/PhillyCocoaHeads/events/225810683/
+
+- title: 'Meteor: Learn & Hack'
+  subheader: Got an idea for a keynote presentation or lightning talk?  Just leave a tweet-sized description on the Hack Night of your choice and we'll help you get set up.
+  time: 6pm
+  date: 2016-03-02
+  location:
+  eventlink: http://www.meetup.com/Meteor-Philadelphia/events/228170686/
+
+- title: 'Philly Dev Night'
+  subheader: 'Dev Night is a once-a-week event geared towards anyone interested in playing or creating games.'
+  time: 7pm
+  date: 2016-03-03
+  location: '239 Chestnut St, Philadelphia, PA'
+  eventlink: http://phillydevnight.com/
+
+- title: 'HTML101: Build Your Own Website - Intro to HTML/CSS'
+  subheader: This two-part Intro to HTML/CSS course runs on Saturday, March 5th and Sunday, March 6th from 11am to 4pm. Each day includes a 30-minute lunch break. 
+  time: 11am
+  date: 2016-03-05
+  location: 4040 Locust Street, Philadelphia, PA
+  eventlink: http://www.meetup.com/Girl-Develop-It-Philadelphia/events/228388683/
+
 - title: 'Node.js Show & Tell'
   subheader: This is the second-Tuesday Philly node.js meetup group!  We start things out informally and anyone that has something to share shows off what they've been doing with node.js.
   time: 6:30pm
   date: 2016-03-08
   location: 1315 Walnut St, Suite 1500, Philadelphia, PA
   eventlink: http://www.meetup.com/nodejs-philly/events/226669099/
+
+- title: 'Code for Philly Hack Night'
+  subheader: Ready to hack for Philly? This is a no-frills night for projects to meet in-person and get some real work done.
+  time: 6pm
+  date: 2016-03-08
+  location: 908 North 3rd Street, Philadelphia, PA
+  eventlink: http://www.meetup.com/Code-for-Philly/events/228828549/
+
+- title: 'Philly Dev Night'
+  subheader: 'Dev Night is a once-a-week event geared towards anyone interested in playing or creating games.'
+  time: 7pm
+  date: 2016-03-10
+  location: '239 Chestnut St, Philadelphia, PA'
+  eventlink: http://phillydevnight.com/
 
 - title: 'Indy Hall - Show & Tell'
   subheader: 'Indy Hall Show & Tell is a lunch-hour presentation series in which a member (or guest) of Indy Hall has the opportunity to talk about hobbies, current projects, new releases, or just about anything else.'
@@ -40,12 +96,33 @@
   location: '20 North 3rd Street, Philadelphia, PA'
   eventlink: http://www.meetup.com/IndyHall/events/qhvhwfyvfbwb/
 
+- title: 'Philly Dev Night'
+  subheader: 'Dev Night is a once-a-week event geared towards anyone interested in playing or creating games.'
+  time: 7pm
+  date: 2016-03-17
+  location: '239 Chestnut St, Philadelphia, PA'
+  eventlink: http://phillydevnight.com/
+
+- title: 'Philly Dev Night'
+  subheader: 'Dev Night is a once-a-week event geared towards anyone interested in playing or creating games.'
+  time: 7pm
+  date: 2016-03-24
+  location: '239 Chestnut St, Philadelphia, PA'
+  eventlink: http://phillydevnight.com/
+
 - title: 'Build Guild Philly'
   subheader: 'Build Guild is a bunch of web folks that enjoy chatting over drinks. It happens the last Wednesday of every month.'
   time: 6pm
   date: 2016-03-30
   location: '117 Chestnut St, Philadelphia, PA'
   eventlink: http://www.meetup.com/Build-Guild-Philly/events/cwqgklyvfbnc/
+
+- title: Women In Tech Summit Philadelphia
+  subheader: The Women In Tech Summit is Philly's premier event for women in tech of all kinds from women who are just thinking about getting involved, students, early career, mid career, to the most advanced and experienced CIOs.
+  time: 9am
+  date: 2016-04-09
+  location: '315 Chestnut Street, Philadelphia, PA'
+  eventlink: http://www.meetup.com/IndyHall/events/qhvhwfyvgbcc/
 
 - title: 'Indy Hall - Show & Tell'
   subheader: 'Indy Hall Show & Tell is a lunch-hour presentation series in which a member (or guest) of Indy Hall has the opportunity to talk about hobbies, current projects, new releases, or just about anything else.'
