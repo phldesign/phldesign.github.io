@@ -19,6 +19,13 @@
   location: 4040 Locust Street, Philadelphia, PA
   eventlink: http://www.meetup.com/Girl-Develop-It-Philadelphia/events/228388683/
 
+- title: 'Intro to Web Concepts'
+  subheader: Want to learn how to code but not sure where to start? Tired of techies throwing around acronyms that make your head spin? 
+  time: 6:15pm
+  date: 2016-03-07
+  location: 1211 Chestnut Street Suite 400, Philadelphia, PA
+  eventlink: http://www.meetup.com/Girl-Develop-It-Philadelphia/events/229009267/
+
 - title: 'Node.js Show & Tell'
   subheader: This is the second-Tuesday Philly node.js meetup group!  We start things out informally and anyone that has something to share shows off what they've been doing with node.js.
   time: 6:30pm
@@ -32,6 +39,13 @@
   date: 2016-03-08
   location: 908 North 3rd Street, Philadelphia, PA
   eventlink: http://www.meetup.com/Code-for-Philly/events/228828549/
+
+- title: 'LTUX Phl First Meeting!'
+  subheader: Fancy meeting other women for a good old natter about UX and life in general? Then Ladies that UX is for you. Not got UX in your job title? No problem. If you’re inquisitive, enthusiastic and interested in making the world a better place for users, you’re one of us.
+  time: 5:30pm
+  date: 2016-03-09
+  location:  901 Walnut Street Philadelphia, PA 19107
+  eventlink: https://www.eventbrite.com/e/ltux-phl-first-meeting-tickets-22431358798
 
 - title: 'Philly Dev Night'
   subheader: 'Dev Night is a once-a-week event geared towards anyone interested in playing or creating games.'
