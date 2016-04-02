@@ -19,7 +19,7 @@ fulltitle: "PHL Design"
 			<div class="content-block">
 				<div class="event-info">
 					<p class="content-date">{{ event.date | date: '%B %-d, %Y' }}</p>
-					<h3 class="content-title">{{ event.title }}</h3>
+					<h3 class="content-title"><a href="{{ event.eventlink }}" target="_blank">{{ event.title }}</a></h3>
 					{% if event.time %}
 					<p class="content-time">Starts at {{ event.time }}</p>
 					{%  endif %}
@@ -39,7 +39,7 @@ fulltitle: "PHL Design"
 			<div class="content-block">
 				<div class="event-info">
 					<p class="content-date">{{ event.date | date: '%B %-d, %Y' }}</p>
-					<h3 class="content-title">{{ event.title }}</h3>
+					<h3 class="content-title"><a href="{{ event.eventlink }}" target="_blank">{{ event.title }}</a></h3>
 					{% if event.time %}
 					<p class="content-time">Starts at {{ event.time }}</p>
 					{%  endif %}
@@ -59,7 +59,7 @@ fulltitle: "PHL Design"
 			<div class="content-block">
 				<div class="event-info">
 					<p class="content-date">{{ event.date | date: '%B %-d, %Y' }}</p>
-					<h3 class="content-title">{{ event.title }}</h3>
+					<h3 class="content-title"><a href="{{ event.eventlink }}" target="_blank">{{ event.title }}</a></h3>
 					{% if event.time %}
 					<p class="content-time">Starts at {{ event.time }}</p>
 					{%  endif %}

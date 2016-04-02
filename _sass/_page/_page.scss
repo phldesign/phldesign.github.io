@@ -1,3 +1,14 @@
+.promo-call-out {
+    background-color: #333333;
+    color: white;
+    a {
+        color: white;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
 .intro-block {
     padding: 40px 0;
     border-bottom: 1px solid $primary;
@@ -109,10 +120,10 @@
 
 .content-company {
     font: {
-        size: 16px;
+        size: 18px;
         weight: 700;
     };
-    margin: 0;
+    margin: .25em 0 0;
 }
 
 .view-all-link {
@@ -124,21 +135,30 @@
     }
 }
 
-.job-post {
-    line-height: 1.8;
+.job-post,
+.code-of-conduct {
+    line-height: 1.9;
     h3 {
         font: {
-            size: 20px;
+            size: 24px;
             weight: 300;
         };
+        text-transform: capitalize;
     }
     p {
+        line-height: 1.8;
+    }
+    ul, ol {
+        margin: 0 0 1em;
         font: {
             size: 16px;
         };
-        line-height: 1.8;
     }
-    ul {
-        margin: 0 0 1em;
-    }
+}
+
+.job-date {
+    font: {
+        size: 12px;
+    };
+    margin: 0;
 }

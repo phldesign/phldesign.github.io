@@ -18,6 +18,7 @@
 
 	<div class="row page-section-content">
 		<div class="small-12 large-8 large-offset-2 end columns content-block job-post">
+			<p class="content-date">{{ page.date | date: '%B %d, %Y' }}</p>
 			{% if page.companyurl %}
 			<p class="content-company"><a href="{{ page.companyurl }}" target="_blank">{{ page.company }}</a></p>
 			{% else %}
