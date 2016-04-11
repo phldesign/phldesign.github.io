@@ -88,6 +88,13 @@
   date: 2016-04-09
   location: '315 Chestnut Street, Philadelphia, PA'
   eventlink: http://www.meetup.com/IndyHall/events/qhvhwfyvgbcc/
+  
+- title: GitHub Patchwork Philadelphia
+  subheader: Join us at Pipeline Philly for a night of hands-on hacking and learning about Git and GitHub.
+  time: 6:30pm
+  date: 2016-04-12
+  location: 'Pipeline Philly, The Graham Building at Dilworth Park, 30 South 15th Street, Philadelphia, PA 19102'
+  eventlink: https://ti.to/github-events/patchwork-philadelphia-2016
 
 - title: 'Indy Hall - Show & Tell'
   subheader: 'Indy Hall Show & Tell is a lunch-hour presentation series in which a member (or guest) of Indy Hall has the opportunity to talk about hobbies, current projects, new releases, or just about anything else.'
