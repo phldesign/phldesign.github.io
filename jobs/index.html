@@ -11,6 +11,9 @@ fulltitle: "PHL Design"
 		<h2 class="page-section-title">Job Opportunities</h2>
 	</div>
 	{% for post in site.categories['jobs'] %}
+		{% assign expires = post.expires | date: "%s" %}
+		{% assign current_time = site.time | date: "%s" %}
+		{% if current_time < expires %}
 	{% assign loopindex = forloop.index | modulo: 3 %}
 	{% if loopindex == 1 %}
 	<div class="row">
@@ -38,6 +41,7 @@ fulltitle: "PHL Design"
 			</div>
 		</div>
 	</div>
+	{% endif %}
 	{% endif %}
 	{% endfor %}
 </div>

@@ -1,6 +1,5 @@
 ---
 layout: jobpost
-date: 2016-04-12
 position: Front-End Engineer
 company: RJMetrics
 companyurl: http://rjmetrics.com.com/
@@ -8,6 +7,7 @@ joblink: http://rjmetrics.applytojob.com/apply/7hGyPI/Front-End-Engineer
 reference: Kevin Jackson
 categories: jobs
 permalink: /jobs/rjmetrics/front-end-dev
+expires: 2016-07-12
 ---
 
 RJMetrics has built a reputation for great design and strong UX. We’re looking for a data-loving front-end engineer to help us reinforce this reputation.
