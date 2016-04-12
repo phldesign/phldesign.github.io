@@ -11,3 +11,38 @@
   date: 2016-04-21
   location: '20 North 3rd Street, Philadelphia, PA'
   eventlink: http://www.meetup.com/IndyHall/events/qhvhwfyvgbcc/
+
+- title: 'JavaScript Series: Intro to Object-Oriented JS'
+  subheader: 'Object-oriented programming is an approach to programming that helps you conceptualize and organize your code in a way that will make it more structured and more easily maintainable.'
+  time: 6:15pm
+  date: 2016-04-25
+  location: '1211 Chestnut Street Suite 400, Philadelphia, PA'
+  eventlink: http://www.meetup.com/Girl-Develop-It-Philadelphia/events/229775797/
+
+- title: PTW16 Kickoff Festival - Arcade @ Dilworth
+  subheader: We're back at Dilworth Park! Celebrate technology and innovation at the Philly Tech Week 2016 Kickoff event, Arcade @ Dilworth.
+  time: 5pm
+  date: 2016-04-29
+  location: 'Broad & Market Streets, Philadelphia'
+  eventlink: http://www.meetup.com/Technically-Philly/events/228758013/
+
+- title: '#PTW16 Cinco De Mayo Block Party'
+  subheader: On Thursday, May 5th aka Cinco de Mayo, The Philly Junto and N3rd Street are partnering up to present Philly’s first ever Community Block Party at The Piazza!
+  time: 3pm
+  date: 2016-05-05
+  location: 'North 2nd Street & Germantown Avenue, Philadelphia, PA'
+  eventlink: http://www.meetup.com/phillyjunto/events/229924610/
+
+- title: Intro to SEO - Rocket Your Site to the Top of Search Results
+  subheader: 'Have you ever wondered how Google determines how to rank your website? Or why your competitors are beating you onto page one of Google?'
+  time: 6:30pm
+  date: 2016-05-09
+  location: '033 N 2nd St., Philadelphia, PA'
+  eventlink: http://www.meetup.com/Girl-Develop-It-Philadelphia/events/230028313/
+
+- title: Forge Conference 2016
+  subheader: 'Whether they’re speaking from the stage or sitting side-by-side, our speakers and attendees are the designers, developers, and innovators driving some of the most creative and impactful work on the web.'
+  time: 8am
+  date: 2016-09-26
+  location: '3260 South Street, Philadelphia, PA 19104'
+  eventlink: http://www.forgeconf.com/
