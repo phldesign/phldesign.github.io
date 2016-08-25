@@ -1,3 +1,24 @@
+.compound {
+    width: 100%;
+    height: 100%;
+    background-color: #010101;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .compound-logo {
+        width: 100%;
+        margin: 0 auto;
+    }
+    @media only screen and (max-width: 480px) {
+        .compound-logo {
+            width: 90%;
+            text-align: center;
+        }
+    }
+}
+
+
+
 .promo-call-out {
     background-color: #333333;
     color: white;
