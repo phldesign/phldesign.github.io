@@ -21,3 +21,6 @@ exclude: [README.md, node_modules, gruntfile.js, package.json]
 markdown: kramdown
 
 excerpt_separator: ""
+
+gems: [jekyll-admin]
+# This will require each of these gems automatically.
